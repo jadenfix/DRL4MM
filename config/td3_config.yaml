@@ -1,0 +1,107 @@
+# TD3 Configuration for Market Making RL Agent
+# Based on Twin Delayed Deep Deterministic Policy Gradient
+
+# Environment Configuration
+environment:
+  name: "market_making_env"
+  max_episode_steps: 23400  # 6.5 hours * 60 minutes * 60 seconds
+  observation_space_dim: 50  # State vector size
+  action_space_dim: 2  # [bid_offset, ask_offset]
+  
+  # Market session parameters
+  market_open: "09:30:00"
+  market_close: "16:00:00"
+  tick_size: 0.01
+  min_spread: 0.01
+  max_spread: 1.0
+  
+  # Inventory management
+  max_inventory: 1000
+  inventory_penalty: 0.001
+  
+  # Reward function
+  reward_config:
+    pnl_weight: 1.0
+    inventory_penalty: 0.001
+    fill_bonus: 0.1
+    spread_penalty: 0.0001
+
+# Agent Configuration
+agent:
+  algorithm: "TD3"
+  learning_rate: 0.0003
+  buffer_size: 1000000
+  batch_size: 256
+  
+  # Network architecture
+  hidden_dims: [512, 256, 128]
+  activation: "relu"
+  
+  # TD3 specific parameters
+  policy_delay: 2
+  target_policy_noise: 0.2
+  policy_noise_clip: 0.5
+  exploration_noise: 0.1
+  target_update_rate: 0.005
+  
+  # Training parameters
+  warmup_steps: 10000
+  update_frequency: 1
+  save_frequency: 10000
+
+# Training Configuration
+training:
+  total_timesteps: 2000000
+  eval_frequency: 50000
+  eval_episodes: 10
+  log_frequency: 1000
+  
+  # Checkpointing
+  checkpoint_dir: "checkpoints"
+  model_save_dir: "models"
+  
+  # Experiment tracking
+  use_wandb: true
+  wandb_project: "market_making_rl"
+  wandb_entity: null
+  experiment_name: "td3_baseline"
+
+# Data Configuration
+data:
+  nasdaq_api_key: "NASDAQ_API"  # Environment variable name
+  symbols: ["AAPL", "MSFT", "GOOGL", "AMZN", "TSLA"]
+  
+  # Data processing
+  lob_depth: 10  # Number of bid/ask levels
+  feature_window: 100  # Lookback window for features
+  normalize_features: true
+  
+  # File paths
+  raw_data_dir: "data/raw"
+  processed_data_dir: "data/processed"
+  
+# Simulation Configuration
+simulation:
+  latency_mean: 0.001  # 1ms average latency
+  latency_std: 0.0005  # 0.5ms standard deviation
+  fill_probability: 0.8  # Base fill probability
+  adverse_selection_factor: 0.1
+  
+  # Order book simulation
+  synthetic_flow: true
+  replay_historical: false
+  tick_frequency: 1.0  # Updates per second
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_handler: true
+  console_handler: true
+  log_dir: "logs"
+
+# Hardware Configuration
+hardware:
+  device: "auto"  # auto, cpu, cuda
+  num_workers: 4
+  pin_memory: true
