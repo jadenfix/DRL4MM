@@ -6,7 +6,8 @@ realistic fill logic, and integration with real Nasdaq market data.
 """
 
 import numpy as np
-import pandas as pd
+import math
+from numbers import Integral
 from typing import Dict, List, Optional, Tuple, Union
 from dataclasses import dataclass
 from enum import Enum
@@ -123,6 +124,26 @@ class LimitOrderBook:
         """
         Add order to the book and return any resulting trades
         """
+        # Validate before matching: a rejected order must not mutate the book.
+        if not isinstance(order.order_id, str) or not order.order_id:
+            raise ValueError("order_id must be a nonempty string")
+        if order.order_id in self.orders:
+            raise ValueError(f"Duplicate active order ID: {order.order_id}")
+        if order.symbol != self.symbol:
+            raise ValueError("Order symbol does not match the book")
+        if not isinstance(order.side, OrderSide):
+            raise ValueError("Unsupported order side")
+        if order.order_type not in (OrderType.MARKET, OrderType.LIMIT):
+            raise ValueError(f"Unsupported order type: {order.order_type}")
+        if isinstance(order.quantity, bool) or not isinstance(order.quantity, Integral) or order.quantity <= 0:
+            raise ValueError("Order quantity must be a positive integer")
+        if not math.isfinite(order.timestamp):
+            raise ValueError("Order timestamp must be finite")
+        if order.order_type == OrderType.LIMIT and (not math.isfinite(order.price) or order.price <= 0):
+            raise ValueError("Limit price must be finite and positive")
+        if order.ttl is not None and (not math.isfinite(order.ttl) or order.ttl <= 0):
+            raise ValueError("Order TTL must be finite and positive")
+
         if order.order_type == OrderType.MARKET:
             return self._process_market_order(order)
         elif order.order_type == OrderType.LIMIT:
@@ -500,6 +521,9 @@ class LOBSimulator:
         """
         Place order for RL agent
         """
+        if not isinstance(side, str) or side.lower() not in {"buy", "sell"}:
+            raise ValueError("Agent side must be 'buy' or 'sell'")
+
         # Generate order ID
         order_id = f"{agent_id}_{self.order_id_counter}"
         self.order_id_counter += 1
