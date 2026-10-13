@@ -17,6 +17,7 @@ import os
 from dotenv import load_dotenv
 
 from .lob_simulator import LOBSimulator, OrderSide, Trade
+from .historical import load_events
 
 logger = logging.getLogger(__name__)
 
@@ -66,7 +67,7 @@ class MarketMakingEnv(gym.Env):
         load_dotenv('secrets.env')
         
         self.symbol = symbol
-        self.config = config or self._default_config()
+        self.config = {**self._default_config(), **(config or {})}
         self.data_source = data_source
         
         # Initialize simulator
@@ -96,6 +97,9 @@ class MarketMakingEnv(gym.Env):
         self._entry_price = 0.0
         self._processed_trade_count = 0
         self._rewarded_fills = 0
+        self._episode_steps = 0
+        self._historical_cursor = 0
+        self._history_exhausted = False
         
         # Order management
         self.active_quotes = {}  # {'bid': order_id, 'ask': order_id}
@@ -202,6 +206,9 @@ class MarketMakingEnv(gym.Env):
         self._entry_price = 0.0
         self._processed_trade_count = 0
         self._rewarded_fills = 0
+        self._episode_steps = 0
+        self._historical_cursor = 0
+        self._history_exhausted = False
         
         # Reset tracking
         self.active_quotes = {}
@@ -238,8 +245,22 @@ class MarketMakingEnv(gym.Env):
             done: Whether episode has ended
             info: Additional information
         """
-        # Advance time
-        self.current_time += 1.0
+        action = np.asarray(action, dtype=np.float32)
+        if action.shape != (2,) or not np.isfinite(action).all():
+            raise ValueError("Action must contain two finite bid/ask offsets")
+        if not self.action_space.contains(action):
+            raise ValueError("Action offsets exceed the environment's action space")
+
+        if self.data_source == 'historical':
+            if self._history_exhausted or self._is_episode_done():
+                raise RuntimeError('Historical episode ended; call reset before stepping again')
+            # Quotes act on the current observation before the next external event.
+            self._cancel_existing_quotes()
+            self._place_quotes(action)
+            self._advance_historical_event()
+        else:
+            self.current_time += 1.0
+        self._episode_steps += 1
         
         # Update simulator
         sim_state = self.simulator.step(self.current_time)
@@ -247,11 +268,9 @@ class MarketMakingEnv(gym.Env):
         # Process market data update
         self._process_market_update(sim_state)
         
-        # Cancel existing quotes
-        self._cancel_existing_quotes()
-        
-        # Place new quotes based on action
-        self._place_quotes(action)
+        if self.data_source != 'historical':
+            self._cancel_existing_quotes()
+            self._place_quotes(action)
         
         # Update agent state
         self._update_agent_state()
@@ -306,17 +325,35 @@ class MarketMakingEnv(gym.Env):
         """
         Load historical market data from files
         """
-        # TODO: Implement historical data loading
-        # This would load preprocessed LOB data from files
-        pass
+        path = self.config.get('historical_data_path')
+        if not path:
+            raise ValueError('historical_data_path is required for historical replay')
+        self.market_data = load_events(path)
+        # Prime only through the first two-sided book, leaving future rows unseen.
+        while not (self.simulator.lob.bids and self.simulator.lob.asks):
+            if self._historical_cursor >= len(self.market_data):
+                raise ValueError('Replay never establishes an initial two-sided book')
+            self._advance_historical_event()
+        if self._history_exhausted:
+            raise ValueError('Replay needs events after its initial two-sided book')
+        self.episode_start_time = self.current_time
+        self._processed_trade_count = self.simulator.lob.trade_count
+        self._process_market_update(self.simulator.step(self.current_time))
+
+    def _advance_historical_event(self):
+        """Expire existing orders, apply the next event, then advance the cursor."""
+        event = self.market_data[self._historical_cursor]
+        self.current_time = event.timestamp
+        self.simulator.step(self.current_time)
+        event.apply(self.simulator.lob)
+        self._historical_cursor += 1
+        self._history_exhausted = self._historical_cursor == len(self.market_data)
     
     def _connect_live_data(self):
         """
         Connect to live market data feed
         """
-        # TODO: Implement live data connection
-        # This would connect to Nasdaq API or other live feed
-        pass
+        raise NotImplementedError('Live exchange data is not implemented; use historical CSV replay')
     
     def _process_market_update(self, sim_state: Dict):
         """
@@ -368,7 +405,9 @@ class MarketMakingEnv(gym.Env):
         ask_price = round(ask_price / self.tick_size) * self.tick_size
         
         # Place orders (fixed quantity for now)
-        quote_size = 100
+        quote_size = self.config.get('quote_size', 100)
+        if isinstance(quote_size, bool) or not isinstance(quote_size, int) or quote_size <= 0:
+            raise ValueError('quote_size must be a positive integer')
         
         # Place bid
         if bid_price > 0:
@@ -468,7 +507,10 @@ class MarketMakingEnv(gym.Env):
         Check if episode should end
         """
         # End if max steps reached
-        if self.current_time >= self.config['max_episode_steps']:
+        if self._episode_steps >= self.config['max_episode_steps']:
+            return True
+
+        if self.data_source == 'historical' and self._history_exhausted:
             return True
         
         # End if inventory is too large
@@ -519,7 +561,7 @@ class MarketMakingEnv(gym.Env):
             self.inventory,
             self.unrealized_pnl,
             self.position_value,
-            len(self.active_quotes)
+            self._active_quote_count()
         ])
         
         # 4. Time features
@@ -594,6 +636,10 @@ class MarketMakingEnv(gym.Env):
         """
         return {
             'inventory': self.inventory,
+            'cash': self.cash,
+            'equity': self.cash + self.position_value,
+            'timestamp': self.current_time,
+            'episode_steps': self._episode_steps,
             'realized_pnl': self.realized_pnl,
             'unrealized_pnl': self.unrealized_pnl,
             'position_value': self.position_value,
@@ -603,8 +649,12 @@ class MarketMakingEnv(gym.Env):
             'mid_price': self.simulator.lob.get_mid_price(),
             'spread': self.simulator.lob.get_spread(),
             'imbalance': self.simulator.lob.get_order_book_imbalance(),
-            'active_quotes': len(self.active_quotes)
+            'active_quotes': self._active_quote_count()
         }
+
+    def _active_quote_count(self):
+        """Count only agent quotes still resting in the authoritative book."""
+        return sum(order_id in self.simulator.lob.orders for order_id in self.active_quotes.values())
     
     def render(self, mode='human'):
         """
