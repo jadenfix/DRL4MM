@@ -62,6 +62,30 @@ The default now requests historical input rather than silently running an
 empty synthetic book. Install `requirements.txt` for TD3 training; optional
 Weights & Biases is imported only when explicitly enabled.
 
+### Training budgets and checkpoints
+
+`training.total_timesteps` counts actual training actions. Short historical CSVs
+are replayed as separate episodes until that budget is reached; the final
+episode is capped to the remaining budget. This budget cutoff retains the
+environment's terminal flag rather than treating truncation as a terminal TD3
+transition.
+
+`training.eval_frequency` and `agent.save_frequency` are positive integer
+action-step intervals. `training.save_frequency`, when supplied, overrides the
+legacy agent setting. Evaluation and periodic saving occur at episode
+boundaries once the corresponding step threshold is crossed. One boundary
+produces one checkpoint, even if its episode crossed several intervals.
+Periodic files use `checkpoint_steps_<actual steps>.pth`; the final model is
+always saved. Budgets smaller than one episode still train and save that final
+model. Zero, negative, fractional, and boolean schedule values are rejected.
+
+`--resume` restores online networks, optimizers, and agent iteration counters;
+the requested step budget applies to the new invocation. Replay data, random
+states, and lagged target networks are not restored, so this is not exact
+continued-training recovery. Evaluation currently replays the configured CSV,
+not a separate held-out dataset. Software fixture checks do not establish
+market performance.
+
 ## Verify
 
 ```sh

@@ -113,8 +113,12 @@ def create_agent(env: MarketMakingEnv, config: Dict) -> TD3Agent:
 
 
 def train_episode(env: MarketMakingEnv, agent: TD3Agent, metrics: MetricsTracker, 
-                 episode: int, logger: logging.Logger) -> Dict:
-    """Train for one episode"""
+                 episode: int, logger: logging.Logger, step_limit: int = None) -> Dict:
+    """Train one episode, optionally capped by the remaining invocation budget.
+
+    A budget cutoff is a truncation, not an environment terminal transition:
+    retain the environment's done flag in replay for TD3 bootstrapping.
+    """
     
     # Reset environment
     state = env.reset()
@@ -126,7 +130,7 @@ def train_episode(env: MarketMakingEnv, agent: TD3Agent, metrics: MetricsTracker
     
     done = False
     
-    while not done:
+    while not done and (step_limit is None or episode_steps < step_limit):
         # Select action
         action = agent.select_action(state, add_noise=True)
         
@@ -169,7 +173,8 @@ def train_episode(env: MarketMakingEnv, agent: TD3Agent, metrics: MetricsTracker
         'episode_trades': episode_trades,
         'episode_pnl': episode_pnl,
         'final_inventory': info.get('inventory', 0),
-        'final_position_value': info.get('position_value', 0)
+        'final_position_value': info.get('position_value', 0),
+        'budget_truncated': not done,
     }
 
 
@@ -212,6 +217,25 @@ def evaluate_agent(env: MarketMakingEnv, agent: TD3Agent, num_episodes: int = 5)
     }
 
 
+def training_schedule(config: Dict) -> Dict:
+    """Validate positive action-step budgets and intervals before side effects.
+
+    training.save_frequency overrides the legacy agent.save_frequency setting.
+    Frequencies count actual training transitions, not presumed episode length.
+    """
+    training = config['training']
+    schedule = {
+        'total_timesteps': training['total_timesteps'],
+        'eval_frequency': training['eval_frequency'],
+        'save_frequency': training.get('save_frequency', config['agent'].get('save_frequency', 10000)),
+        'max_episode_steps': config['environment']['max_episode_steps'],
+    }
+    for name, value in schedule.items():
+        if isinstance(value, bool) or not isinstance(value, int) or value <= 0:
+            raise ValueError(f'{name} must be a positive integer number of action steps')
+    return schedule
+
+
 def main():
     """Main training function"""
     
@@ -229,6 +253,10 @@ def main():
     # Load configuration
     with open(args.config, 'r') as f:
         config = yaml.safe_load(f)
+    try:
+        schedule = training_schedule(config)
+    except ValueError as error:
+        parser.error(str(error))
     
     # Setup logging
     logger = setup_logging(config)
@@ -262,18 +290,20 @@ def main():
         return
     
     # Training parameters
-    total_episodes = config['training']['total_timesteps'] // config['environment']['max_episode_steps']
-    eval_frequency = config['training']['eval_frequency'] // config['environment']['max_episode_steps']
-    save_frequency = config['training'].get('save_frequency', 10000) // config['environment']['max_episode_steps']
-    
-    logger.info(f"Starting training for {total_episodes} episodes")
+    total_steps = 0
+    episode = 0
+    next_eval = schedule['eval_frequency']
+    next_save = schedule['save_frequency']
+    logger.info(f"Starting training for {schedule['total_timesteps']} action steps")
     
     # Training loop
     best_reward = -float('inf')
     
-    for episode in range(total_episodes):
+    while total_steps < schedule['total_timesteps']:
         # Train episode
-        episode_metrics = train_episode(env, agent, metrics, episode, logger)
+        episode_metrics = train_episode(env, agent, metrics, episode, logger,
+                                        step_limit=schedule['total_timesteps'] - total_steps)
+        total_steps += episode_metrics['episode_steps']
         
         # Log episode metrics
         metrics.log_episode_metrics(episode_metrics, episode)
@@ -290,7 +320,10 @@ def main():
             })
         
         # Evaluation
-        if episode % eval_frequency == 0 and episode > 0:
+        # Run once at an episode boundary that crosses a step threshold. Avoid
+        # duplicate evaluations/checkpoints when a long episode spans intervals.
+        if total_steps >= next_eval:
+            next_eval = (total_steps // schedule['eval_frequency'] + 1) * schedule['eval_frequency']
             eval_metrics = evaluate_agent(env, agent)
             logger.info(f"Episode {episode} evaluation: {eval_metrics}")
             
@@ -314,16 +347,18 @@ def main():
                 logger.info(f"Saved best model to {best_model_path}")
         
         # Periodic saving
-        if episode % save_frequency == 0 and episode > 0:
+        if total_steps >= next_save:
+            next_save = (total_steps // schedule['save_frequency'] + 1) * schedule['save_frequency']
             checkpoint_dir = config['training']['checkpoint_dir']
             os.makedirs(checkpoint_dir, exist_ok=True)
             
-            checkpoint_path = os.path.join(checkpoint_dir, f'checkpoint_episode_{episode}.pth')
+            checkpoint_path = os.path.join(checkpoint_dir, f'checkpoint_steps_{total_steps}.pth')
             agent.save(checkpoint_path)
             logger.info(f"Saved checkpoint to {checkpoint_path}")
+        episode += 1
     
     # Final evaluation
-    logger.info("Training completed. Running final evaluation...")
+    logger.info(f"Training completed after {total_steps} action steps across {episode} episodes. Running final evaluation...")
     final_eval_metrics = evaluate_agent(env, agent, num_episodes=20)
     logger.info(f"Final evaluation results: {final_eval_metrics}")
     
