@@ -237,7 +237,7 @@ class TD3Agent:
             target_q = torch.min(target_q1, target_q2)
             
             # Compute target
-            target = reward + self.gamma * target_q * (~done)
+            target = reward.reshape(-1, 1) + self.gamma * target_q * (~done.reshape(-1, 1))
         
         # Current Q-values
         current_q1 = self.critic_1(state, action)

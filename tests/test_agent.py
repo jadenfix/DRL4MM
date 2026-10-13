@@ -321,3 +321,28 @@ class TestNetworks:
 
 if __name__ == "__main__":
     pytest.main([__file__])
+
+
+def test_bellman_targets_preserve_transition_pairing(monkeypatch):
+    agent = TD3Agent(state_dim=3, action_dim=2)
+    agent.policy_noise = 0.0
+    state = torch.zeros(3, 3)
+    action = torch.zeros(3, 2)
+    rewards = torch.tensor([1.0, 7.0, -2.0])
+    dones = torch.tensor([False, True, False])
+    with torch.no_grad():
+        next_action = agent.actor_target(state)
+        next_q = torch.minimum(agent.critic_1_target(state, next_action),
+                               agent.critic_2_target(state, next_action))
+        expected = rewards[:, None] + agent.gamma * next_q * (~dones[:, None])
+    original = torch.nn.functional.mse_loss
+    targets = []
+    def checked_loss(prediction, target):
+        assert prediction.shape == target.shape == (3, 1)
+        targets.append(target.detach().clone())
+        return original(prediction, target)
+    monkeypatch.setattr(torch.nn.functional, "mse_loss", checked_loss)
+    agent._update_critics(state, action, rewards, state, dones)
+    assert len(targets) == 2
+    assert torch.allclose(targets[0], expected)
+    assert targets[0][1, 0] == 7.0
