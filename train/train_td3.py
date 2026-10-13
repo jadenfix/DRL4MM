@@ -10,7 +10,6 @@ import argparse
 import yaml
 import numpy as np
 import torch
-import wandb
 from datetime import datetime
 import logging
 from typing import Dict, List
@@ -42,6 +41,8 @@ def setup_logging(config: Dict) -> logging.Logger:
 def setup_wandb(config: Dict) -> None:
     """Setup Weights & Biases logging"""
     if config['training']['use_wandb']:
+        global wandb
+        import wandb
         wandb.init(
             project=config['training']['wandb_project'],
             entity=config['training']['wandb_entity'],
@@ -66,14 +67,16 @@ def create_environment(config: Dict) -> MarketMakingEnv:
         'max_episode_steps': config['environment']['max_episode_steps'],
         'reward_scaling': config['environment']['reward_config']['pnl_weight'],
         'fill_bonus': config['environment']['reward_config']['fill_bonus'],
-        'spread_penalty': config['environment']['reward_config']['spread_penalty']
+        'spread_penalty': config['environment']['reward_config']['spread_penalty'],
+        'historical_data_path': config['data'].get('historical_data_path'),
+        'quote_size': config['environment'].get('quote_size', 100),
     }
     
     # Create environment
     env = MarketMakingEnv(
         symbol=config['data']['symbols'][0],  # Use first symbol for training
         config=env_config,
-        data_source="synthetic"  # Start with synthetic data
+        data_source=config['data'].get('source', 'historical')
     )
     
     return env
@@ -341,3 +344,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

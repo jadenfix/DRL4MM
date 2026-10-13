@@ -68,6 +68,8 @@ training:
 
 # Data Configuration
 data:
+  source: "historical"
+  historical_data_path: null  # Set to your chronological order-event CSV.
   nasdaq_api_key: "NASDAQ_API"  # Environment variable name
   symbols: ["AAPL", "MSFT", "GOOGL", "AMZN", "TSLA"]
   
@@ -88,8 +90,8 @@ simulation:
   adverse_selection_factor: 0.1
   
   # Order book simulation
-  synthetic_flow: true
-  replay_historical: false
+  synthetic_flow: false
+  replay_historical: true
   tick_frequency: 1.0  # Updates per second
 
 # Logging Configuration
@@ -105,3 +107,4 @@ hardware:
   device: "auto"  # auto, cpu, cuda
   num_workers: 4
   pin_memory: true
+
