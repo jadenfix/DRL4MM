@@ -93,6 +93,9 @@ class MarketMakingEnv(gym.Env):
         self.realized_pnl = 0.0
         self.unrealized_pnl = 0.0
         self.position_value = 0.0
+        self._entry_price = 0.0
+        self._processed_trade_count = 0
+        self._rewarded_fills = 0
         
         # Order management
         self.active_quotes = {}  # {'bid': order_id, 'ask': order_id}
@@ -196,6 +199,9 @@ class MarketMakingEnv(gym.Env):
         self.realized_pnl = 0.0
         self.unrealized_pnl = 0.0
         self.position_value = 0.0
+        self._entry_price = 0.0
+        self._processed_trade_count = 0
+        self._rewarded_fills = 0
         
         # Reset tracking
         self.active_quotes = {}
@@ -326,12 +332,6 @@ class MarketMakingEnv(gym.Env):
         )
         self.volume_history.append(total_volume)
         
-        # Update trade history with recent fills
-        recent_fills = self.simulator.get_agent_fills()
-        for fill in recent_fills:
-            if fill not in self.recent_fills:
-                self.recent_fills.append(fill)
-                self.trade_history.append(fill.quantity)
     
     def _cancel_existing_quotes(self):
         """
@@ -392,28 +392,47 @@ class MarketMakingEnv(gym.Env):
     
     def _update_agent_state(self):
         """
-        Update agent's position and PnL
+        Consume each newly executed trade once and mark the open position.
+
+        Lifetime accounting must not depend on the bounded display history.
+        Realized PnL uses average entry cost; cash plus marked position equals
+        realized plus unrealized PnL (the simulator currently charges no fees).
         """
-        # Calculate inventory from recent fills
-        new_inventory = 0
-        new_realized_pnl = 0.0
-        
-        for fill in self.recent_fills:
-            if fill.buyer_id.startswith("agent"):
-                new_inventory += fill.quantity
-                new_realized_pnl -= fill.price * fill.quantity
-            elif fill.seller_id.startswith("agent"):
-                new_inventory -= fill.quantity
-                new_realized_pnl += fill.price * fill.quantity
-        
-        self.inventory = new_inventory
-        self.realized_pnl = new_realized_pnl
-        
-        # Calculate unrealized PnL
+        book = self.simulator.lob
+        pending = book.trade_count - self._processed_trade_count
+        if pending < 0 or pending > len(book.trades):
+            raise RuntimeError("Trade history gap: cannot reconcile agent accounting")
+        for fill in list(book.trades)[len(book.trades) - pending:]:
+            bought = fill.buyer_id.startswith("agent_")
+            sold = fill.seller_id.startswith("agent_")
+            # Neither third-party trades nor self trades earn economic rewards.
+            if bought == sold:
+                continue
+            quantity = fill.quantity if bought else -fill.quantity
+            previous = self.inventory
+            if previous == 0 or previous * quantity > 0:
+                self._entry_price = (
+                    abs(previous) * self._entry_price + abs(quantity) * fill.price
+                ) / (abs(previous) + abs(quantity))
+            else:
+                closed = min(abs(previous), abs(quantity))
+                self.realized_pnl += closed * (fill.price - self._entry_price) * np.sign(previous)
+                if abs(quantity) > abs(previous):
+                    self._entry_price = fill.price
+                elif abs(quantity) == abs(previous):
+                    self._entry_price = 0.0
+            self.inventory += quantity
+            self.cash -= quantity * fill.price
+            self.recent_fills.append(fill)
+            self.trade_history.append(quantity)
+            self.fill_count += 1
+            self.episode_trades += 1
+            self.episode_volume += fill.quantity
+        self._processed_trade_count = book.trade_count
         mid_price = self.simulator.lob.get_mid_price()
         if mid_price is not None:
             self.position_value = self.inventory * mid_price
-            self.unrealized_pnl = self.position_value - (self.realized_pnl + self.cash)
+            self.unrealized_pnl = self.inventory * (mid_price - self._entry_price)
     
     def _calculate_reward(self) -> float:
         """
@@ -428,10 +447,10 @@ class MarketMakingEnv(gym.Env):
         
         # Fill bonus
         fill_bonus = 0.0
-        new_fills = len(self.recent_fills) - self.fill_count
+        new_fills = self.fill_count - self._rewarded_fills
         if new_fills > 0:
             fill_bonus = self.config['fill_bonus'] * new_fills
-            self.fill_count = len(self.recent_fills)
+            self._rewarded_fills = self.fill_count
         
         # Spread penalty (encourage tighter spreads)
         spread = self.simulator.lob.get_spread()
@@ -578,7 +597,7 @@ class MarketMakingEnv(gym.Env):
             'realized_pnl': self.realized_pnl,
             'unrealized_pnl': self.unrealized_pnl,
             'position_value': self.position_value,
-            'fill_count': len(self.recent_fills),
+            'fill_count': self.fill_count,
             'episode_trades': self.episode_trades,
             'episode_volume': self.episode_volume,
             'mid_price': self.simulator.lob.get_mid_price(),
@@ -607,3 +626,4 @@ class MarketMakingEnv(gym.Env):
         Clean up environment
         """
         pass
+
