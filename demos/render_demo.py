@@ -94,6 +94,8 @@ def main():
     if not shutil.which('ffmpeg'):
         parser.error('ffmpeg is required')
     manifest = json.loads((ROOT/'demos/source-manifest.json').read_text())
+    if manifest['source_commit'] != SOURCE:
+        parser.error('source label differs from manifest commit')
     for relative, expected in manifest['git_blob_sha1'].items():
         data = (ROOT/relative).read_bytes()
         actual = hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
