@@ -4,6 +4,14 @@ Market-making research with a FIFO order book and a TD3 agent. The local
 historical replay path consumes your own CSV order events, places quotes before
 each next event, and exports fills plus reconciled cash, inventory, and PnL.
 
+## Replay demo
+
+![Rendered simulator replay using a labeled software fixture](demos/replay-demo.gif)
+
+[MP4 video](demos/replay-demo.mp4) · [Reproduce and verify this capture](demos/README.md).
+This visualizes actual CLI output from a synthetic software fixture; it is not
+live market data or evidence of trading performance.
+
 ## Replay supplied market events
 
 For replay alone, install the lightweight dependencies:

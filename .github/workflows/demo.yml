@@ -1,0 +1,22 @@
+name: Replay demo
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install numpy pandas gym==0.26.2 python-dotenv Pillow pytest
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+      - run: python -m pytest tests/test_accounting.py tests/test_historical_replay.py tests/test_lob_validation.py -q
+      - run: python demos/render_demo.py --output-dir /tmp/replay-demo
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verified-software-fixture-demo
+          path: /tmp/replay-demo/
