@@ -237,6 +237,11 @@ class TD3Agent:
             target_q = torch.min(target_q1, target_q2)
             
             # Compute target
+            # Replay scalars are (B,), while critics output (B, 1).
+            # Preserve one Bellman target per transition instead of broadcasting
+            # each reward/terminal flag across every other transition.
+            reward = reward.reshape(-1, 1)
+            done = done.reshape(-1, 1)
             target = reward + self.gamma * target_q * (~done)
         
         # Current Q-values
