@@ -321,3 +321,30 @@ class TestNetworks:
 
 if __name__ == "__main__":
     pytest.main([__file__])
+
+
+def test_bellman_targets_keep_rewards_and_terminal_flags_per_transition(monkeypatch):
+    import agent.td3_agent as module
+    agent = TD3Agent(state_dim=3, action_dim=2)
+    class ConstantCritic(torch.nn.Module):
+        def __init__(self, value):
+            super().__init__()
+            self.value = value
+        def forward(self, state, action):
+            return torch.full((state.size(0), 1), self.value, device=state.device)
+    agent.critic_1_target = ConstantCritic(4.0)
+    agent.critic_2_target = ConstantCritic(3.0)
+    original_loss = module.F.mse_loss
+    observed = []
+    def checked_loss(prediction, target):
+        assert prediction.shape == target.shape == (2, 1)
+        expected = torch.tensor([[10.0], [20.0 + agent.gamma * 3]], device=target.device)
+        assert torch.allclose(target, expected)
+        observed.append(target.detach().clone())
+        return original_loss(prediction, target)
+    monkeypatch.setattr(module.F, 'mse_loss', checked_loss)
+    state = torch.zeros(2, 3, device=agent.device)
+    agent._update_critics(state, torch.zeros(2, 2, device=agent.device),
+                          torch.tensor([10., 20.], device=agent.device), state,
+                          torch.tensor([True, False], device=agent.device))
+    assert len(observed) == 2
