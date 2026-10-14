@@ -51,8 +51,9 @@ agent:
 
 # Training Configuration
 training:
-  total_timesteps: 2000000
-  eval_frequency: 50000
+  total_timesteps: 2000000  # Actual training action steps, including repeated CSV episodes.
+  eval_frequency: 50000  # Action steps; evaluate at the next episode boundary.
+  # save_frequency: 10000  # Optional override of agent.save_frequency (also action steps).
   eval_episodes: 10
   log_frequency: 1000
   
