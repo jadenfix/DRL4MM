@@ -146,3 +146,6 @@ tensorboard_logs/
 *.temp
 temp/
 tmp/
+# v2 pipeline outputs (data is re-downloadable; runs are regenerated)
+data/v2/
+runs/v2/

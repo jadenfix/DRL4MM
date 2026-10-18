@@ -18,7 +18,7 @@ jobs:
       - name: CPU Torch for the existing TD3 tests and environment factories
         run: python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
       - name: Install offline replay and test dependencies
-        run: python -m pip install numpy pandas gym==0.26.2 python-dotenv pytest pyyaml matplotlib seaborn requests aiohttp
+        run: python -m pip install numpy pandas scipy gym==0.26.2 python-dotenv pytest pyyaml matplotlib seaborn requests aiohttp
       - name: Exercise public replay entrypoint
         run: python -m simulator.replay --help
       - name: Unit and subprocess replay tests (no network or model calls)
