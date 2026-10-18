@@ -1,5 +1,5 @@
 {
-  "source_commit": "81752dff261636ec96c940de82b22bfeff731fcb",
+  "source_commit": "36a6bc451e600243611ae67f31c842fc3d5a197d",
   "git_blob_sha1": {
     "agent/__init__.py": "51a2f9bca7af140e0a2de24544c8c2253b392403",
     "agent/networks.py": "194e853bf84d71c4e4a4a9d611463a71593f3ef7",
@@ -12,7 +12,7 @@
     "simulator/replay.py": "14b1a7148f46bd745ec7756a7be8fc518b38693b",
     "train/__init__.py": "5f96354e83c483c43a6aab617296509f64ba5375",
     "train/evaluate.py": "efa074fe70ccdcbdca15dbda55516d60bf44c45e",
-    "train/train_td3.py": "8f7356e060fd04f57b1d1761af7dce24b7344226",
+    "train/train_td3.py": "684f5c77055f8d938b2751905b79a48c22721f1a",
     "utils/__init__.py": "a15cc6501648f3893093a32ba2503899f7609527",
     "utils/data_utils.py": "bc874e9e9b0622f0590c1284117698f81a835e07",
     "utils/logger.py": "c48c47bea707b42da880ec4af3190d717db5008d",

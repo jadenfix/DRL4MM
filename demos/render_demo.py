@@ -11,7 +11,7 @@ import tempfile
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = '81752dff261636ec96c940de82b22bfeff731fcb'
+SOURCE = '36a6bc451e600243611ae67f31c842fc3d5a197d'
 W, H, FPS, SECONDS = 1280, 720, 12, 15
 BG, PANEL, INK, MUTED = '#0b1020', '#141e32', '#eef4ff', '#91a4c4'
 TEAL, BLUE, AMBER = '#63efd1', '#7aabff', '#ffd088'
