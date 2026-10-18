@@ -1,0 +1,5 @@
+{
+  "chosen_by": "highest full-validation mean PnL among the ablations (ablation_summary.json): sac_markout_reward",
+  "config": {"algo": "sac", "reward": "markout", "eta": 0.002, "steps": 600000},
+  "seeds": [0, 1, 2, 3, 4]
+}

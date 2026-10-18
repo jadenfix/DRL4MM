@@ -1,0 +1,2436 @@
+{
+ "BTCUSDT_2023-08-08": {
+  "symbol": "BTCUSDT",
+  "day": "2023-08-08",
+  "day0_ms": 1691452800000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 292026,
+  "book_rows": 14197833,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 2,
+  "trade_prices_off_tick": 17,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 1039583,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 975986,
+  "sha256": {
+   "bookTicker": "bc872805e8e4f90c9509010f71ea8dc39a024e655b9c8058362d1f0ca15031f3",
+   "aggTrades": "6e56371c7eeef35c3fa44ed5a4a3f2570c5dfb5ee7330224434fb811619f5cd6"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2023-08-08.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2023-08-08.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 12.0,
+  "week": "calm",
+  "split": "train"
+ },
+ "ETHUSDT_2023-08-08": {
+  "symbol": "ETHUSDT",
+  "day": "2023-08-08",
+  "day0_ms": 1691452800000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 182817,
+  "book_rows": 8702129,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 512757,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 498921,
+  "sha256": {
+   "bookTicker": "e1bd85ee02e196646e2da45245514f9823cb76469cee13785fa517e5578982be",
+   "aggTrades": "fb765bf0910aa4cc63a919c4648ec897847941925f8f7ef13bdebd951403b5b5"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2023-08-08.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2023-08-08.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 7.1,
+  "week": "calm",
+  "split": "train"
+ },
+ "LTCUSDT_2023-08-08": {
+  "symbol": "LTCUSDT",
+  "day": "2023-08-08",
+  "day0_ms": 1691452800000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 8246,
+  "book_rows": 2061211,
+  "book_rows_outside_day": 0,
+  "first_book_bin": 52,
+  "crossed_bins": 0,
+  "trade_rows": 140049,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 136926,
+  "sha256": {
+   "bookTicker": "61a9ad1d5f87dd3001070f1e878beba50da5b2016dc714a76e12c03a796635e7",
+   "aggTrades": "af15c3d24985a317c8a1d5a7108defe105c1f40a075510ee1cecfffffa4560bf"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2023-08-08.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2023-08-08.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 3.1,
+  "week": "calm",
+  "split": "train"
+ },
+ "SOLUSDT_2023-08-08": {
+  "symbol": "SOLUSDT",
+  "day": "2023-08-08",
+  "day0_ms": 1691452800000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 23107,
+  "book_rows": 3292571,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 52,
+  "crossed_bins": 0,
+  "trade_rows": 299524,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 290415,
+  "sha256": {
+   "bookTicker": "7006aa88eaf5bb1f4e2d4974b8a73047f43ef86a6a0481e33376ffdd4ff08fa4",
+   "aggTrades": "11494623f91c517ed264cea338699d989d316bd04e51224f32f9fa689234b156"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2023-08-08.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2023-08-08.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 5.1,
+  "week": "calm",
+  "split": "train"
+ },
+ "BTCUSDT_2023-08-09": {
+  "symbol": "BTCUSDT",
+  "day": "2023-08-09",
+  "day0_ms": 1691539200000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 297589,
+  "book_rows": 12999252,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 7,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 830778,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 798185,
+  "sha256": {
+   "bookTicker": "952540111ea066beb6cf93671d1a210888b218682abb4bb4f5f37185171db27b",
+   "aggTrades": "0a053b672685359123208a5bd77ddc94f373182f55c11b2caa124220d22eafa6"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2023-08-09.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2023-08-09.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 8.6,
+  "week": "calm",
+  "split": "train"
+ },
+ "ETHUSDT_2023-08-09": {
+  "symbol": "ETHUSDT",
+  "day": "2023-08-09",
+  "day0_ms": 1691539200000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 185536,
+  "book_rows": 7271422,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 378473,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 373645,
+  "sha256": {
+   "bookTicker": "90e3bfd40a536e812a374cb104e3daaaf4b59d9830f2b599b56b6138153dd368",
+   "aggTrades": "040bc5d489ab493044113e6a14acd2999cccb8b3f103cd73df4e0ba42f5b2c2d"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2023-08-09.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2023-08-09.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 5.5,
+  "week": "calm",
+  "split": "train"
+ },
+ "LTCUSDT_2023-08-09": {
+  "symbol": "LTCUSDT",
+  "day": "2023-08-09",
+  "day0_ms": 1691539200000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 8381,
+  "book_rows": 1613662,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 52,
+  "crossed_bins": 0,
+  "trade_rows": 90168,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 89377,
+  "sha256": {
+   "bookTicker": "89a088ebf1353f84f6efcf39f5401ac5b270f1222616377bab2b222d4f560f27",
+   "aggTrades": "cb0fe986db486cfb0ecf9b29f2b110324f8950211ee1b938afe77014345566f3"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2023-08-09.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2023-08-09.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 3.0,
+  "week": "calm",
+  "split": "train"
+ },
+ "SOLUSDT_2023-08-09": {
+  "symbol": "SOLUSDT",
+  "day": "2023-08-09",
+  "day0_ms": 1691539200000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 24204,
+  "book_rows": 3162197,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 52,
+  "crossed_bins": 0,
+  "trade_rows": 265074,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 259644,
+  "sha256": {
+   "bookTicker": "b3c9e21830b2dacc8b022117a00180be53c09ab553c2a261414a32a6f76d89da",
+   "aggTrades": "ffa8399c8d118df1eebd6b133565d94396b994b48a1c54a668762c83a4d57e6f"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2023-08-09.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2023-08-09.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 3.6,
+  "week": "calm",
+  "split": "train"
+ },
+ "BTCUSDT_2023-08-10": {
+  "symbol": "BTCUSDT",
+  "day": "2023-08-10",
+  "day0_ms": 1691625600000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 295728,
+  "book_rows": 10831376,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 2,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 601524,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 581668,
+  "sha256": {
+   "bookTicker": "7373fd7f32fa75b727170b7388179ec657ca172efcb15e18fdc1a8cf1d274d82",
+   "aggTrades": "90eecb9b22d0edf516dca5d2565bb8f1bc5d26d5acd1640f02f057471bfda4aa"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2023-08-10.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2023-08-10.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 6.6,
+  "week": "calm",
+  "split": "train"
+ },
+ "ETHUSDT_2023-08-10": {
+  "symbol": "ETHUSDT",
+  "day": "2023-08-10",
+  "day0_ms": 1691625600000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 185469,
+  "book_rows": 7263578,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 323101,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 319005,
+  "sha256": {
+   "bookTicker": "920a5dca734281cf1e73e3117b5689df99a577b3d79ddd775873b57e427cb05e",
+   "aggTrades": "4009efed76b80b1faccbbb5f535050709bfb2c27f27420d68f365032802b3faf"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2023-08-10.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2023-08-10.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 5.9,
+  "week": "calm",
+  "split": "train"
+ },
+ "LTCUSDT_2023-08-10": {
+  "symbol": "LTCUSDT",
+  "day": "2023-08-10",
+  "day0_ms": 1691625600000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 8404,
+  "book_rows": 1386961,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 75715,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 75102,
+  "sha256": {
+   "bookTicker": "25c0d6b36698a5d8662b0d7772ea8ba9656e6ce6672fcd621e8efbcdc1156dea",
+   "aggTrades": "43578104717c6be4a633f33ede55d37ff68eb62fc3573b7f1b9e684aeeedd978"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2023-08-10.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2023-08-10.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 3.2,
+  "week": "calm",
+  "split": "train"
+ },
+ "SOLUSDT_2023-08-10": {
+  "symbol": "SOLUSDT",
+  "day": "2023-08-10",
+  "day0_ms": 1691625600000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 24374,
+  "book_rows": 2348503,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 176881,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 172893,
+  "sha256": {
+   "bookTicker": "846f0cb044dee825d74e8739e2511dc32a61daf38480936c78bbcd4e1dcfc6be",
+   "aggTrades": "01cd8a24ee8ab23f5bca9556906306db75097bc740aed73bbaabdc00438d0ce1"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2023-08-10.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2023-08-10.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 3.7,
+  "week": "calm",
+  "split": "train"
+ },
+ "BTCUSDT_2023-08-11": {
+  "symbol": "BTCUSDT",
+  "day": "2023-08-11",
+  "day0_ms": 1691712000000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 294437,
+  "book_rows": 9449640,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 2,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 424474,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 414177,
+  "sha256": {
+   "bookTicker": "d242d410f1fc993286cfd0b75339b4203ca1dfa3ae16aa51e0f1842ca6ede8ac",
+   "aggTrades": "da443eb5d55fbc277fca7c3cce56b7f003803ea86d71f82f8db530c868999754"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2023-08-11.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2023-08-11.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 6.5,
+  "week": "calm",
+  "split": "train"
+ },
+ "ETHUSDT_2023-08-11": {
+  "symbol": "ETHUSDT",
+  "day": "2023-08-11",
+  "day0_ms": 1691712000000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 185142,
+  "book_rows": 6683245,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 283839,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 279620,
+  "sha256": {
+   "bookTicker": "228812d752a13c013fbb8827c6cd876d59a12f8b638b6461b9d5d508d34c7bf0",
+   "aggTrades": "4ef55042f98721dc13336fceefba5f637f1b26b527cd50d8de0df7d5be21623d"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2023-08-11.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2023-08-11.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 5.4,
+  "week": "calm",
+  "split": "train"
+ },
+ "LTCUSDT_2023-08-11": {
+  "symbol": "LTCUSDT",
+  "day": "2023-08-11",
+  "day0_ms": 1691712000000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 8309,
+  "book_rows": 1235121,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 44,
+  "crossed_bins": 0,
+  "trade_rows": 59173,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 58863,
+  "sha256": {
+   "bookTicker": "5d691382809e0f5d9b75fd976158128d3a78728671f58278712234cca1bea25c",
+   "aggTrades": "e6a28a5f35715c0bcd55d025b12be1e80e61e15eb4f6e6fed24b6f0ef067d6d7"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2023-08-11.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2023-08-11.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 2.9,
+  "week": "calm",
+  "split": "train"
+ },
+ "SOLUSDT_2023-08-11": {
+  "symbol": "SOLUSDT",
+  "day": "2023-08-11",
+  "day0_ms": 1691712000000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 24614,
+  "book_rows": 2181432,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 57,
+  "crossed_bins": 0,
+  "trade_rows": 153815,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 151548,
+  "sha256": {
+   "bookTicker": "e7646a1124adc3fd439b657c275c9a2bacb56d29daded184edba8d833acfc58d",
+   "aggTrades": "e7e417da65a3aa13db573b29c60cf0bf4efa29538af200a7e308d3cc0a0ff772"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2023-08-11.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2023-08-11.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 3.6,
+  "week": "calm",
+  "split": "train"
+ },
+ "BTCUSDT_2023-08-12": {
+  "symbol": "BTCUSDT",
+  "day": "2023-08-12",
+  "day0_ms": 1691798400000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 294155,
+  "book_rows": 6497420,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 225060,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 223479,
+  "sha256": {
+   "bookTicker": "2aa30d0110bd954ccd68e077472f3f95659f5ecdc79383ed96e288cb9598bf63",
+   "aggTrades": "85ba5de8801badbf1d638cb7657fc0631535e4eaaa1bf8fdaf74beba94be6173"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2023-08-12.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2023-08-12.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 8.2,
+  "week": "calm",
+  "split": "val"
+ },
+ "ETHUSDT_2023-08-12": {
+  "symbol": "ETHUSDT",
+  "day": "2023-08-12",
+  "day0_ms": 1691798400000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 184803,
+  "book_rows": 5490249,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 199704,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 198850,
+  "sha256": {
+   "bookTicker": "091aed15a141511b5875405868999b521ba98b6a2a18f5ab4b2b551420245d01",
+   "aggTrades": "77df6c517438d59962e1fb672c905ca400c60637d548c57b5bde8486e6d80dba"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2023-08-12.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2023-08-12.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 5.1,
+  "week": "calm",
+  "split": "val"
+ },
+ "LTCUSDT_2023-08-12": {
+  "symbol": "LTCUSDT",
+  "day": "2023-08-12",
+  "day0_ms": 1691798400000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 8353,
+  "book_rows": 1117641,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 57,
+  "crossed_bins": 0,
+  "trade_rows": 54729,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 54445,
+  "sha256": {
+   "bookTicker": "289a07bad9c7598b3a49986d7cac580c28c30e3dc0557b9e4e8aac91738dd0e8",
+   "aggTrades": "cf6287c4314b7a304b71ee8612711bf46934645b01b5fa8ece0f951e5e2ca272"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2023-08-12.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2023-08-12.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 3.4,
+  "week": "calm",
+  "split": "val"
+ },
+ "SOLUSDT_2023-08-12": {
+  "symbol": "SOLUSDT",
+  "day": "2023-08-12",
+  "day0_ms": 1691798400000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 24612,
+  "book_rows": 1443754,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 36,
+  "crossed_bins": 0,
+  "trade_rows": 118569,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 114773,
+  "sha256": {
+   "bookTicker": "a2230c4b51e149b5f99375fe124e001a7d136a0c3ba7ae10c8bc6a61398d30b5",
+   "aggTrades": "f64f6dbfba22b8d93caa0941acbc76181f272195a20d40d5e93253ce86ca6558"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2023-08-12.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2023-08-12.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 2.9,
+  "week": "calm",
+  "split": "val"
+ },
+ "BTCUSDT_2023-08-13": {
+  "symbol": "BTCUSDT",
+  "day": "2023-08-13",
+  "day0_ms": 1691884800000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 294207,
+  "book_rows": 7670486,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 285682,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 281661,
+  "sha256": {
+   "bookTicker": "4dee05e98138094bc3f08bb8a70039af9c8d536dc3e258fca75c88a07b530173",
+   "aggTrades": "e3fedec78043073c1989003bd3bfb317f5590d1cfde8b5bc367cb6a1d8c87da6"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2023-08-13.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2023-08-13.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 6.1,
+  "week": "calm",
+  "split": "test"
+ },
+ "ETHUSDT_2023-08-13": {
+  "symbol": "ETHUSDT",
+  "day": "2023-08-13",
+  "day0_ms": 1691884800000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 184914,
+  "book_rows": 6240922,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 255855,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 249979,
+  "sha256": {
+   "bookTicker": "c71f15f0befdf394ca63147f445027549e66c74aab341d3c157ac47a1ea41355",
+   "aggTrades": "7a43e0458856fee4365fac523e1b1a8bca310d4ed93f4c8ba6c7297acf938970"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2023-08-13.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2023-08-13.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 6.5,
+  "week": "calm",
+  "split": "test"
+ },
+ "LTCUSDT_2023-08-13": {
+  "symbol": "LTCUSDT",
+  "day": "2023-08-13",
+  "day0_ms": 1691884800000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 8344,
+  "book_rows": 1338131,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 78196,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 76712,
+  "sha256": {
+   "bookTicker": "89c3f965811b27878c99d9a21e8b9f21c17df30583874f15e7ade47f415361a9",
+   "aggTrades": "b2ae92c3978b83b9d6be7e1019d47c8ec83b111153c74537f6d45b70d4f8b8b9"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2023-08-13.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2023-08-13.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 3.1,
+  "week": "calm",
+  "split": "test"
+ },
+ "SOLUSDT_2023-08-13": {
+  "symbol": "SOLUSDT",
+  "day": "2023-08-13",
+  "day0_ms": 1691884800000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 24902,
+  "book_rows": 1558309,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 120780,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 118420,
+  "sha256": {
+   "bookTicker": "a0750facc91e289e801075eefb57110936dad974dbe5428e3d71af76781b412b",
+   "aggTrades": "57648d638c00fa8fd594cabfc787efd0be63767f37566ac935fb96afeb33e7c6"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2023-08-13.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2023-08-13.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 4.0,
+  "week": "calm",
+  "split": "test"
+ },
+ "BTCUSDT_2023-08-14": {
+  "symbol": "BTCUSDT",
+  "day": "2023-08-14",
+  "day0_ms": 1691971200000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 292933,
+  "book_rows": 11934379,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 6,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 641206,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 617432,
+  "sha256": {
+   "bookTicker": "930aadd448abddd5752fc676c06f79fa7e354cb1a1e68187534bcc1c78178d5b",
+   "aggTrades": "d5db603f39292e761a2848ba012a0d7cfe3e6dd5c8835fe0cba14121e529ed87"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2023-08-14.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2023-08-14.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 7.9,
+  "week": "calm",
+  "split": "test"
+ },
+ "ETHUSDT_2023-08-14": {
+  "symbol": "ETHUSDT",
+  "day": "2023-08-14",
+  "day0_ms": 1691971200000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 184009,
+  "book_rows": 7371225,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 322003,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 318304,
+  "sha256": {
+   "bookTicker": "ac45353b4a9728a04560f8db6a43fb9e72bb8f08453d453dc24e393e1d49b519",
+   "aggTrades": "111640adeebbb1111b3980b978f13dae4085456157f178375ec2183ecd993183"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2023-08-14.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2023-08-14.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 5.6,
+  "week": "calm",
+  "split": "test"
+ },
+ "LTCUSDT_2023-08-14": {
+  "symbol": "LTCUSDT",
+  "day": "2023-08-14",
+  "day0_ms": 1691971200000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 8187,
+  "book_rows": 1522226,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 82092,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 81331,
+  "sha256": {
+   "bookTicker": "206a338d48f19d595e45a3701abe6e6c57427962f561ced54004c2ae50e35ee3",
+   "aggTrades": "9c7cc3f99ddf5a6afcadb2e51b9e40ec404d3d5b58d9dce5101ef4f0f7d6f64d"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2023-08-14.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2023-08-14.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 3.1,
+  "week": "calm",
+  "split": "test"
+ },
+ "SOLUSDT_2023-08-14": {
+  "symbol": "SOLUSDT",
+  "day": "2023-08-14",
+  "day0_ms": 1691971200000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 24217,
+  "book_rows": 2362599,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 191587,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 187197,
+  "sha256": {
+   "bookTicker": "c0d6204dc6f24a16d806088a47196e138c53a5a3ef897391a5f10a739da19314",
+   "aggTrades": "d54b563e831e675cbd956b609ad2d4d9bafb5c51e367bc1a14ae132f103e0cd3"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2023-08-14.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2023-08-14.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 3.5,
+  "week": "calm",
+  "split": "test"
+ },
+ "BTCUSDT_2023-11-21": {
+  "symbol": "BTCUSDT",
+  "day": "2023-11-21",
+  "day0_ms": 1700524800000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 374625,
+  "book_rows": 29710851,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 144,
+  "trade_prices_off_tick": 207,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 1505026,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 1402671,
+  "sha256": {
+   "bookTicker": "a69171505a811086c4461bd6082327f3fdb680cbcd331a1d773bb1bcbfbf09bb",
+   "aggTrades": "f5e5f5fb34b40c69547c57cdd4d100c27a031ca07337cc8742c27fcca881d423"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2023-11-21.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2023-11-21.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 22.9,
+  "week": "median",
+  "split": "train"
+ },
+ "ETHUSDT_2023-11-21": {
+  "symbol": "ETHUSDT",
+  "day": "2023-11-21",
+  "day0_ms": 1700524800000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 202240,
+  "book_rows": 11117812,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 1172054,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 1116787,
+  "sha256": {
+   "bookTicker": "0f6730dd483577a8c57c053aab7d88fae96e33736c3e90e8a5a763de778a1dbd",
+   "aggTrades": "6417aca7ab79b7af591498d296f2f9101c9734f696658bf66ced502fa1f8d69c"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2023-11-21.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2023-11-21.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 10.2,
+  "week": "median",
+  "split": "train"
+ },
+ "LTCUSDT_2023-11-21": {
+  "symbol": "LTCUSDT",
+  "day": "2023-11-21",
+  "day0_ms": 1700524800000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 6953,
+  "book_rows": 3274092,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 163912,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 155364,
+  "sha256": {
+   "bookTicker": "50b563a3e498a447fbdeaee6603121b72c05e1550b560d4f918614a78077e2f5",
+   "aggTrades": "4d935d6e0b63f3b8018a774d2311e74e13196414053657d6c5e8c3e33ceabbb4"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2023-11-21.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2023-11-21.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 4.3,
+  "week": "median",
+  "split": "train"
+ },
+ "SOLUSDT_2023-11-21": {
+  "symbol": "SOLUSDT",
+  "day": "2023-11-21",
+  "day0_ms": 1700524800000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 56603,
+  "book_rows": 8613395,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 25,
+  "crossed_bins": 0,
+  "trade_rows": 1749420,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 1591658,
+  "sha256": {
+   "bookTicker": "01c1a5c64d0f4b7fe03646230588b73277889bae25946d0a17b52e9d58376d3e",
+   "aggTrades": "103e8d27ce1fd961db94b3ca13b7cb95f0b172b80a86c6adaff859ef1cf2698b"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2023-11-21.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2023-11-21.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 8.2,
+  "week": "median",
+  "split": "train"
+ },
+ "BTCUSDT_2023-11-22": {
+  "symbol": "BTCUSDT",
+  "day": "2023-11-22",
+  "day0_ms": 1700611200000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 357302,
+  "book_rows": 23832257,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 581,
+  "trade_prices_off_tick": 147,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 1196447,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 1139203,
+  "sha256": {
+   "bookTicker": "5c95ac919e82164c64800d03254f30bb0e50e2cf0a13476c2b49f57f365df3fa",
+   "aggTrades": "a3977d63a29319a409c287e08622010736c0fdd32611e9cab77a90be97452be1"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2023-11-22.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2023-11-22.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 16.5,
+  "week": "median",
+  "split": "train"
+ },
+ "ETHUSDT_2023-11-22": {
+  "symbol": "ETHUSDT",
+  "day": "2023-11-22",
+  "day0_ms": 1700611200000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 193343,
+  "book_rows": 11778496,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 996478,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 958188,
+  "sha256": {
+   "bookTicker": "1dc3cf07f514e9cdba9da3fe5d1637ffadcd21577b7978188e7992a94398cc89",
+   "aggTrades": "73bd2049111bf44307e338b47eb3273f614dbe04fa7dd39677928fec3b6277ce"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2023-11-22.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2023-11-22.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 11.4,
+  "week": "median",
+  "split": "train"
+ },
+ "LTCUSDT_2023-11-22": {
+  "symbol": "LTCUSDT",
+  "day": "2023-11-22",
+  "day0_ms": 1700611200000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 6617,
+  "book_rows": 2228064,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 2,
+  "crossed_bins": 0,
+  "trade_rows": 70437,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 69405,
+  "sha256": {
+   "bookTicker": "7316930de9ceb40489b71ba5dde9badf1e7fbaf3f83d977466e28f16ed180b11",
+   "aggTrades": "7a931c473903b34af1085800fa926d2fe8191a23c46fb3a82f699cedd9cc11cb"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2023-11-22.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2023-11-22.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 4.3,
+  "week": "median",
+  "split": "train"
+ },
+ "SOLUSDT_2023-11-22": {
+  "symbol": "SOLUSDT",
+  "day": "2023-11-22",
+  "day0_ms": 1700611200000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 51684,
+  "book_rows": 6455058,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 1014556,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 956464,
+  "sha256": {
+   "bookTicker": "505422c4d27f626f16558270b445fd0669f96e52fdc6e18c62f5bae8c3273fd7",
+   "aggTrades": "fd4177e72b08b7fc0aed6df81a21a8f365a95a51d5f98051c96c74033c80020d"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2023-11-22.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2023-11-22.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 5.9,
+  "week": "median",
+  "split": "train"
+ },
+ "BTCUSDT_2023-11-23": {
+  "symbol": "BTCUSDT",
+  "day": "2023-11-23",
+  "day0_ms": 1700697600000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 374134,
+  "book_rows": 11003519,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 6,
+  "trade_prices_off_tick": 50,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 760529,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 738401,
+  "sha256": {
+   "bookTicker": "4b8a2d6570bd0f95642086d0d2365cfb63483a06a60a26254ef90c949aaa340c",
+   "aggTrades": "67d9e06ae9d63f72370c86e14d74b1a6043af8863f6316106059859e0709566b"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2023-11-23.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2023-11-23.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 8.1,
+  "week": "median",
+  "split": "train"
+ },
+ "ETHUSDT_2023-11-23": {
+  "symbol": "ETHUSDT",
+  "day": "2023-11-23",
+  "day0_ms": 1700697600000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 206391,
+  "book_rows": 7566365,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 636236,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 618121,
+  "sha256": {
+   "bookTicker": "3e592d32bf69bf4968cf2a5b20ddfbc264bb9f580121d0c22662776d0558d469",
+   "aggTrades": "061304a00691e41dc2b36a2e441781624179a4faed5c3642e00b931e483af291"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2023-11-23.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2023-11-23.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 6.0,
+  "week": "median",
+  "split": "train"
+ },
+ "LTCUSDT_2023-11-23": {
+  "symbol": "LTCUSDT",
+  "day": "2023-11-23",
+  "day0_ms": 1700697600000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 6872,
+  "book_rows": 1953802,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 24,
+  "crossed_bins": 0,
+  "trade_rows": 71616,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 68715,
+  "sha256": {
+   "bookTicker": "b168647720131900ba4cf8eb2f363a383c158c4b376d11dff114118b307c1642",
+   "aggTrades": "55043ac0ba9a6341f582e9895e215701f8773c3ab636f582f41ffe52e4034e23"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2023-11-23.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2023-11-23.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 3.3,
+  "week": "median",
+  "split": "train"
+ },
+ "SOLUSDT_2023-11-23": {
+  "symbol": "SOLUSDT",
+  "day": "2023-11-23",
+  "day0_ms": 1700697600000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 57575,
+  "book_rows": 5303446,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 818265,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 769772,
+  "sha256": {
+   "bookTicker": "2353c392337c1ceeb6575f0b4d42c5692592da7afb6fa0d95d8f2b4f7be20d59",
+   "aggTrades": "2e90761470d7dbded01b82cdeec2fe36ff7071904c37be36d6940a6dedaa76d7"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2023-11-23.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2023-11-23.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 4.7,
+  "week": "median",
+  "split": "train"
+ },
+ "BTCUSDT_2023-11-24": {
+  "symbol": "BTCUSDT",
+  "day": "2023-11-24",
+  "day0_ms": 1700784000000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 372949,
+  "book_rows": 13058140,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 91,
+  "trade_prices_off_tick": 138,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 1220961,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 1135994,
+  "sha256": {
+   "bookTicker": "cccc3d6860bbe87711f73e1c412e35c5e0c4c31cfa20f41e44355575c12db3ef",
+   "aggTrades": "e8b5e8022c7da4c8e83ec3c3b617d3af145b6d15ef144bca34d022eebade9470"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2023-11-24.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2023-11-24.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 9.1,
+  "week": "median",
+  "split": "train"
+ },
+ "ETHUSDT_2023-11-24": {
+  "symbol": "ETHUSDT",
+  "day": "2023-11-24",
+  "day0_ms": 1700784000000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 206267,
+  "book_rows": 8537655,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 915592,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 870528,
+  "sha256": {
+   "bookTicker": "7051d812a5f8a7e7b5acd4e40e7d00de61b856f4f5148ed337757392069e05a5",
+   "aggTrades": "6303e5d686da218bba4bf809c108a2e74852e1a333f369a6a6fbbb88bdc59c44"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2023-11-24.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2023-11-24.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 7.7,
+  "week": "median",
+  "split": "train"
+ },
+ "LTCUSDT_2023-11-24": {
+  "symbol": "LTCUSDT",
+  "day": "2023-11-24",
+  "day0_ms": 1700784000000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 6951,
+  "book_rows": 1935968,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 65945,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 64127,
+  "sha256": {
+   "bookTicker": "bd7c476d42fef4ccf37f96c4ceb8bc7a292910486919e74ac4b4610335a9a40f",
+   "aggTrades": "548a36182172f7a98d1a396115c10e07edbed7a9970630240accebee4581d969"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2023-11-24.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2023-11-24.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 4.1,
+  "week": "median",
+  "split": "train"
+ },
+ "SOLUSDT_2023-11-24": {
+  "symbol": "SOLUSDT",
+  "day": "2023-11-24",
+  "day0_ms": 1700784000000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 56541,
+  "book_rows": 4873192,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 663934,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 633913,
+  "sha256": {
+   "bookTicker": "f24bb240242f3d01a3b425617c1b5c2618cc4d9a38a5548f1e7038da3fe0d571",
+   "aggTrades": "82c1ce51c4c3408a6294bed1d946a91ec896feedda8981187bef192a44e203fc"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2023-11-24.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2023-11-24.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 5.3,
+  "week": "median",
+  "split": "train"
+ },
+ "BTCUSDT_2023-11-25": {
+  "symbol": "BTCUSDT",
+  "day": "2023-11-25",
+  "day0_ms": 1700870400000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 377063,
+  "book_rows": 6276311,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 6,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 376537,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 369313,
+  "sha256": {
+   "bookTicker": "5a48c283c3ab49de3af65927d946e6a68efe63a110f58ff3b991c0f897331a67",
+   "aggTrades": "55d0603e9a1d5a74d84790b5751fc9e16e5612b8411e64dfd748bf211d90df87"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2023-11-25.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2023-11-25.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 5.2,
+  "week": "median",
+  "split": "val"
+ },
+ "ETHUSDT_2023-11-25": {
+  "symbol": "ETHUSDT",
+  "day": "2023-11-25",
+  "day0_ms": 1700870400000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 208116,
+  "book_rows": 5065514,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 325064,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 319216,
+  "sha256": {
+   "bookTicker": "455da706f2b0c02b5d0b601ab9bdfada1d7c483abc09378d897a191417be6b44",
+   "aggTrades": "702ca3c2e9c25192d7f2ea704b5d5143d19c4fa437b90c2d456ac421573fde9a"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2023-11-25.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2023-11-25.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 4.7,
+  "week": "median",
+  "split": "val"
+ },
+ "LTCUSDT_2023-11-25": {
+  "symbol": "LTCUSDT",
+  "day": "2023-11-25",
+  "day0_ms": 1700870400000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 7073,
+  "book_rows": 1574669,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 47614,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 46295,
+  "sha256": {
+   "bookTicker": "8ea69480f820ebb05a9d33d783646125ec9da68c042e80709ec0a4ac56e4b303",
+   "aggTrades": "f406c1d4c012508e9ce8cf0c5d3666cbb26798de6228e32a1060bc9e73ecdda4"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2023-11-25.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2023-11-25.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 2.8,
+  "week": "median",
+  "split": "val"
+ },
+ "SOLUSDT_2023-11-25": {
+  "symbol": "SOLUSDT",
+  "day": "2023-11-25",
+  "day0_ms": 1700870400000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 56869,
+  "book_rows": 4072079,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 574212,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 540934,
+  "sha256": {
+   "bookTicker": "0036e80536c3eb32d3b89d71b1135f09e93722fecb43f727562136481db1af29",
+   "aggTrades": "f74068b6834db9b8fbca582e59afd4a82fc38ca29dd156220c904a6a4ac17c7f"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2023-11-25.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2023-11-25.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 5.3,
+  "week": "median",
+  "split": "val"
+ },
+ "BTCUSDT_2023-11-26": {
+  "symbol": "BTCUSDT",
+  "day": "2023-11-26",
+  "day0_ms": 1700956800000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 377666,
+  "book_rows": 8732541,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 2,
+  "trade_prices_off_tick": 53,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 640417,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 613119,
+  "sha256": {
+   "bookTicker": "64cfaaf7ebcf13de94bc21d2db5a3cd9bff986557e3175cbff808b2bc3d8892d",
+   "aggTrades": "d139a98f4e4fc4744475c4fd3aaf974b7aa28bf8e08a13bda66f846126ecffb4"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2023-11-26.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2023-11-26.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 6.6,
+  "week": "median",
+  "split": "test"
+ },
+ "ETHUSDT_2023-11-26": {
+  "symbol": "ETHUSDT",
+  "day": "2023-11-26",
+  "day0_ms": 1700956800000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 208286,
+  "book_rows": 6701484,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 596137,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 568749,
+  "sha256": {
+   "bookTicker": "7fc01069140f55b97edb2a8139ff4353ac2d61a7b53128a8d9d8e0493e6de38a",
+   "aggTrades": "3386b908a1a63a8c3f4fb1c998e6e8b90fb1ac1b51c4a338592501d1e8215581"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2023-11-26.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2023-11-26.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 5.4,
+  "week": "median",
+  "split": "test"
+ },
+ "LTCUSDT_2023-11-26": {
+  "symbol": "LTCUSDT",
+  "day": "2023-11-26",
+  "day0_ms": 1700956800000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 7187,
+  "book_rows": 1675331,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 54632,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 52983,
+  "sha256": {
+   "bookTicker": "b0e0adcab2f31750a26c484e5be7998a85dad4611c8859ae0a5fb844bafa3974",
+   "aggTrades": "e84499679d037f98cfe913793a6715e8c8fad47fe4ca34a0d6eff2bda7451c13"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2023-11-26.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2023-11-26.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 3.2,
+  "week": "median",
+  "split": "test"
+ },
+ "SOLUSDT_2023-11-26": {
+  "symbol": "SOLUSDT",
+  "day": "2023-11-26",
+  "day0_ms": 1700956800000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 58829,
+  "book_rows": 3762604,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 515906,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 488973,
+  "sha256": {
+   "bookTicker": "c97756e738b3906d615a42a182da66295221ce6ac28e9c542a071a8bd5e54371",
+   "aggTrades": "12dacf09360ea7569604bd2f99cedeafa0f33e00f77f5706622bfd59a459e5be"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2023-11-26.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2023-11-26.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 4.6,
+  "week": "median",
+  "split": "test"
+ },
+ "BTCUSDT_2023-11-27": {
+  "symbol": "BTCUSDT",
+  "day": "2023-11-27",
+  "day0_ms": 1701043200000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 374379,
+  "book_rows": 14601622,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 567,
+  "trade_prices_off_tick": 92,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 937046,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 902307,
+  "sha256": {
+   "bookTicker": "806ecceb504d41aa1de91e9bfa6f413020e507df030c0e7f2efcd36f3e7e0cf4",
+   "aggTrades": "40ab3263e664270164cefb9ff3d671c64457561a5a02ef220c70d5d6b407665e"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2023-11-27.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2023-11-27.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 11.6,
+  "week": "median",
+  "split": "test"
+ },
+ "ETHUSDT_2023-11-27": {
+  "symbol": "ETHUSDT",
+  "day": "2023-11-27",
+  "day0_ms": 1701043200000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 206196,
+  "book_rows": 10327330,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 803204,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 772732,
+  "sha256": {
+   "bookTicker": "08785e3671c69debf148ed41b9f281034d057be1c9305d3742aa26f1875bd3d3",
+   "aggTrades": "745e3a018905427e6d21de416047329087b5d02ff28b53fbc0b33dfcf1ee0b84"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2023-11-27.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2023-11-27.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 7.9,
+  "week": "median",
+  "split": "test"
+ },
+ "LTCUSDT_2023-11-27": {
+  "symbol": "LTCUSDT",
+  "day": "2023-11-27",
+  "day0_ms": 1701043200000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 7002,
+  "book_rows": 1847470,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 61631,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 60683,
+  "sha256": {
+   "bookTicker": "1d5a580129c57615db09700ef26e29e67c685ac7d2d246fac32755389f986713",
+   "aggTrades": "75350c51090bffa052d6ae62d83215657a60da782ae7e2a289321361f7bf8b7c"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2023-11-27.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2023-11-27.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 3.3,
+  "week": "median",
+  "split": "test"
+ },
+ "SOLUSDT_2023-11-27": {
+  "symbol": "SOLUSDT",
+  "day": "2023-11-27",
+  "day0_ms": 1701043200000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 57598,
+  "book_rows": 5384613,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 1,
+  "crossed_bins": 0,
+  "trade_rows": 753643,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 713095,
+  "sha256": {
+   "bookTicker": "7472e7d680cb9d25add0d2d2af0408410ec75ae372217d5c5794d75d934fc038",
+   "aggTrades": "b1bd355ccd009783d462b438d172f3b8dc583db7329bc5d64afa66be22a17f6c"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2023-11-27.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2023-11-27.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 5.7,
+  "week": "median",
+  "split": "test"
+ },
+ "BTCUSDT_2024-03-14": {
+  "symbol": "BTCUSDT",
+  "day": "2024-03-14",
+  "day0_ms": 1710374400000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 731275,
+  "book_rows": 24647477,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 1,
+  "trade_prices_off_tick": 56,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 2861170,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 2679858,
+  "sha256": {
+   "bookTicker": "ea6dae265b4dfffb02fffca2ea27bd9fb2c3d72f3ea4a66049278f05d1ffa773",
+   "aggTrades": "40033db6c64e897f2ffc6cae5f5cd1c86c8a0c626f6fbedaf5a0b01605f4564b"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-03-14.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-03-14.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 19.6,
+  "week": "volatile",
+  "split": "train"
+ },
+ "ETHUSDT_2024-03-14": {
+  "symbol": "ETHUSDT",
+  "day": "2024-03-14",
+  "day0_ms": 1710374400000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 400875,
+  "book_rows": 14732110,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 1927317,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 1847241,
+  "sha256": {
+   "bookTicker": "4a49599705f2a1afd85b277a1519c85f4766f47132386c86c82a1acf182a6ac9",
+   "aggTrades": "daf46cec8735c8ab730ff4b2f037fd464f3fcdb852ae3ff6507cc468c001c933"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-03-14.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-03-14.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 14.7,
+  "week": "volatile",
+  "split": "train"
+ },
+ "LTCUSDT_2024-03-14": {
+  "symbol": "LTCUSDT",
+  "day": "2024-03-14",
+  "day0_ms": 1710374400000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 9731,
+  "book_rows": 4139158,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 228034,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 221987,
+  "sha256": {
+   "bookTicker": "91cf39481c0e1043f9eaeca865e224bfe4c5141906d8e34c7fb9741bc69c16aa",
+   "aggTrades": "aacc3e116b1d21ce4a6f24fee760509ecd72cca5c35d15a6fc580e208dbde7db"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2024-03-14.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2024-03-14.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 6.0,
+  "week": "volatile",
+  "split": "train"
+ },
+ "SOLUSDT_2024-03-14": {
+  "symbol": "SOLUSDT",
+  "day": "2024-03-14",
+  "day0_ms": 1710374400000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 164054,
+  "book_rows": 16369296,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 2365286,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 2266389,
+  "sha256": {
+   "bookTicker": "d9897ad391ae9aa6259f7421d94f0ed7a8ba8809fe692da7dd61e36d2b03e877",
+   "aggTrades": "f9a7e63b73b27b77b4f36f861f01a34841c6eb0362504822213ccb6bfd1d9073"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2024-03-14.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2024-03-14.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 11.4,
+  "week": "volatile",
+  "split": "train"
+ },
+ "BTCUSDT_2024-03-15": {
+  "symbol": "BTCUSDT",
+  "day": "2024-03-15",
+  "day0_ms": 1710460800000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 714620,
+  "book_rows": 26651695,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 60,
+  "trade_prices_off_tick": 132,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 4265593,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 3981696,
+  "sha256": {
+   "bookTicker": "ec6604a9f45fcf8b9bd28f9497c7aceb279bee63dbb1cbbac83c09da82d71599",
+   "aggTrades": "29c8910ec13a739db6b858b1a56c13c58092140fda944f0c576c835f83631f8b"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-03-15.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-03-15.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 24.2,
+  "week": "volatile",
+  "split": "train"
+ },
+ "ETHUSDT_2024-03-15": {
+  "symbol": "ETHUSDT",
+  "day": "2024-03-15",
+  "day0_ms": 1710460800000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 388527,
+  "book_rows": 16676537,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 2867307,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 2735916,
+  "sha256": {
+   "bookTicker": "002af5461a4bc8f740790211cb11531a1eadb5a0e63ff0b593a7b67947c7e95f",
+   "aggTrades": "2da7a9ae365a9eac2d008510d3ae668525dffaddde95b4b22b48aa7c9f3a6108"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-03-15.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-03-15.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 12.3,
+  "week": "volatile",
+  "split": "train"
+ },
+ "LTCUSDT_2024-03-15": {
+  "symbol": "LTCUSDT",
+  "day": "2024-03-15",
+  "day0_ms": 1710460800000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 9419,
+  "book_rows": 5427256,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 282872,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 274741,
+  "sha256": {
+   "bookTicker": "f943ef924acc358feae49fee4f328e664df92c31b87198d2bccb2fe6e1080300",
+   "aggTrades": "892c46420515beaa8729c151b42044e88af855568f8317ef4c56c7a0b4df6069"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2024-03-15.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2024-03-15.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 6.4,
+  "week": "volatile",
+  "split": "train"
+ },
+ "SOLUSDT_2024-03-15": {
+  "symbol": "SOLUSDT",
+  "day": "2024-03-15",
+  "day0_ms": 1710460800000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 176888,
+  "book_rows": 19574128,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 4494706,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 4243966,
+  "sha256": {
+   "bookTicker": "35f6edec81eae21fd6a38e4d0f8553bc693a0aa2a71d4dcbe6d2df5149e681ac",
+   "aggTrades": "08c10f164e6acb2633ad5b0072a52f332d5c3e4aae46816790fd1dc554248c73"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2024-03-15.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2024-03-15.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 13.6,
+  "week": "volatile",
+  "split": "train"
+ },
+ "BTCUSDT_2024-03-16": {
+  "symbol": "BTCUSDT",
+  "day": "2024-03-16",
+  "day0_ms": 1710547200000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 695521,
+  "book_rows": 19143773,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 87,
+  "trade_prices_off_tick": 45,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 2088215,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 1999755,
+  "sha256": {
+   "bookTicker": "0c5f018760f1a6182aeb1ccbf196fdfa7b91dbc549d68bef156becbdcda09a06",
+   "aggTrades": "a60a66b66da4168ebdd6f66fb16623f2542ae951f781747867ae632f259d25d2"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-03-16.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-03-16.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 10.9,
+  "week": "volatile",
+  "split": "train"
+ },
+ "ETHUSDT_2024-03-16": {
+  "symbol": "ETHUSDT",
+  "day": "2024-03-16",
+  "day0_ms": 1710547200000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 374500,
+  "book_rows": 12295922,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 1702501,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 1656701,
+  "sha256": {
+   "bookTicker": "35c55fad6a49555b5cf8682910b3bab30220dac0b9d396cdea7917e56b19a5f1",
+   "aggTrades": "0a60fcb551e8f94262688f73a66d29035991479528df1e56f33c6e75adb7a4cd"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-03-16.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-03-16.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 9.4,
+  "week": "volatile",
+  "split": "train"
+ },
+ "LTCUSDT_2024-03-16": {
+  "symbol": "LTCUSDT",
+  "day": "2024-03-16",
+  "day0_ms": 1710547200000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 8983,
+  "book_rows": 4468272,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 191433,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 189117,
+  "sha256": {
+   "bookTicker": "2ae562b113db02cea496ece0bae757ee6b2f60077faa234dee482751d4a93591",
+   "aggTrades": "fbde8577e35a530c21f3616b5ff787da88379817d4e1b3ebe67e797e288a81a6"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2024-03-16.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2024-03-16.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 4.6,
+  "week": "volatile",
+  "split": "train"
+ },
+ "SOLUSDT_2024-03-16": {
+  "symbol": "SOLUSDT",
+  "day": "2024-03-16",
+  "day0_ms": 1710547200000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 184165,
+  "book_rows": 16142973,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 2855784,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 2728386,
+  "sha256": {
+   "bookTicker": "7df4aa74b8c46918ec6ff88666d5bce2561b4805e3516ec49f8016c9f56d9f4b",
+   "aggTrades": "fbc413b2210e1785353d29648b2179ac64aed9163b2cf00895aed75267c9fdf7"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2024-03-16.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2024-03-16.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 11.5,
+  "week": "volatile",
+  "split": "train"
+ },
+ "BTCUSDT_2024-03-17": {
+  "symbol": "BTCUSDT",
+  "day": "2024-03-17",
+  "day0_ms": 1710633600000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 653511,
+  "book_rows": 16828710,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 115,
+  "trade_prices_off_tick": 42,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 1948558,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 1868533,
+  "sha256": {
+   "bookTicker": "e9cc587d68d579762c672fc82b64df9205cfa0aa5a4c82de9461add1bea05ac3",
+   "aggTrades": "de55ff89223a03785ca90b3855784643cdd241b89961d72e2014ffa945b70955"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-03-17.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-03-17.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 13.6,
+  "week": "volatile",
+  "split": "train"
+ },
+ "ETHUSDT_2024-03-17": {
+  "symbol": "ETHUSDT",
+  "day": "2024-03-17",
+  "day0_ms": 1710633600000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 352595,
+  "book_rows": 12278347,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 1678596,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 1631428,
+  "sha256": {
+   "bookTicker": "ee857587f8e6ca4e9b1c0a126728f00aff9817948485c55a3c229d5d5650e72c",
+   "aggTrades": "29c0f644f4802f2ea4014a88d1f79b01e6d3555bda073cd53f9cedd4c22be681"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-03-17.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-03-17.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 11.6,
+  "week": "volatile",
+  "split": "train"
+ },
+ "LTCUSDT_2024-03-17": {
+  "symbol": "LTCUSDT",
+  "day": "2024-03-17",
+  "day0_ms": 1710633600000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 8416,
+  "book_rows": 3548727,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 127190,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 125770,
+  "sha256": {
+   "bookTicker": "e408449d80f45fc18d018d39817d0e0f53cc17713a4cf5f9e4b428ded4f1ab4e",
+   "aggTrades": "625226a477d35ab09d8d97567d0f36195795c7d66392263070f5f3b0667778dd"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2024-03-17.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2024-03-17.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 4.5,
+  "week": "volatile",
+  "split": "train"
+ },
+ "SOLUSDT_2024-03-17": {
+  "symbol": "SOLUSDT",
+  "day": "2024-03-17",
+  "day0_ms": 1710633600000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 182184,
+  "book_rows": 14095772,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 2184514,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 2100331,
+  "sha256": {
+   "bookTicker": "7cfddf30c769931d513e52b6503812a1b1a9cdbc1db46ab8ab6940ee74f9d5ca",
+   "aggTrades": "0e14670cbf30053259618d0743042d210f2899b96625cccd22a7c403e09ecc67"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2024-03-17.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2024-03-17.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 10.7,
+  "week": "volatile",
+  "split": "train"
+ },
+ "BTCUSDT_2024-03-18": {
+  "symbol": "BTCUSDT",
+  "day": "2024-03-18",
+  "day0_ms": 1710720000000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 684479,
+  "book_rows": 19265736,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 16,
+  "trade_prices_off_tick": 38,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 2051946,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 1977136,
+  "sha256": {
+   "bookTicker": "60dc70bc81156087870c933a671e9d10cc181f353712069ee040b1b1818210d4",
+   "aggTrades": "4d75d464a257b8f1f215eb0f668da9bf1702e2b736ff3cfa3e500e2b44dde0c7"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-03-18.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-03-18.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 13.2,
+  "week": "volatile",
+  "split": "val"
+ },
+ "ETHUSDT_2024-03-18": {
+  "symbol": "ETHUSDT",
+  "day": "2024-03-18",
+  "day0_ms": 1710720000000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 364699,
+  "book_rows": 13782805,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 1826319,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 1785093,
+  "sha256": {
+   "bookTicker": "e7ed56d7c0ca4a448d012bc6ded598592db50cbc2e48df85ee0dc940c9124099",
+   "aggTrades": "ac26b462132d708f0f93b45ff1c317bcf2fb4de0251ba8b238b77342ad22942d"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-03-18.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-03-18.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 10.7,
+  "week": "volatile",
+  "split": "val"
+ },
+ "LTCUSDT_2024-03-18": {
+  "symbol": "LTCUSDT",
+  "day": "2024-03-18",
+  "day0_ms": 1710720000000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 8599,
+  "book_rows": 3927159,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 168429,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 166072,
+  "sha256": {
+   "bookTicker": "11e41106760126a406a603de90b473d5c075c4b70e4111f522e734f0c8bae4fe",
+   "aggTrades": "10090a2f6503fc20aa974daaf66401e32e7211a02dd228c1adfdd26c13ff9231"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2024-03-18.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2024-03-18.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 4.5,
+  "week": "volatile",
+  "split": "val"
+ },
+ "SOLUSDT_2024-03-18": {
+  "symbol": "SOLUSDT",
+  "day": "2024-03-18",
+  "day0_ms": 1710720000000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 201959,
+  "book_rows": 17251932,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 2406103,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 2317689,
+  "sha256": {
+   "bookTicker": "cea174269656d07e40fc51352631ad15c4a0a93dc799d128adbc56485d806ac7",
+   "aggTrades": "5c2b8aeab5cf2b92ecb1ff866966c93936fc7ff7ff83a4b4337715bb10136637"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2024-03-18.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2024-03-18.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 16.4,
+  "week": "volatile",
+  "split": "val"
+ },
+ "BTCUSDT_2024-03-19": {
+  "symbol": "BTCUSDT",
+  "day": "2024-03-19",
+  "day0_ms": 1710806400000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 676580,
+  "book_rows": 26820791,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 83,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 3948964,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 3741957,
+  "sha256": {
+   "bookTicker": "168e6c9aeded296f270f797ba1edaa5a936071ceb5568243e4a39e5c04ddbf5b",
+   "aggTrades": "083a3c99e2c92f2fec2f5a1105c0dc340b52f27b888628ae8a4cf45b1dc45644"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-03-19.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-03-19.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 21.4,
+  "week": "volatile",
+  "split": "test"
+ },
+ "ETHUSDT_2024-03-19": {
+  "symbol": "ETHUSDT",
+  "day": "2024-03-19",
+  "day0_ms": 1710806400000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 352343,
+  "book_rows": 19418762,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 3172022,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 3059244,
+  "sha256": {
+   "bookTicker": "0ff7b029a93dd1a971ca2bafe56d02931e0b8e4ca28c1c04800b7a5ec2ce0115",
+   "aggTrades": "8beff0652cd3c455cfe8fd658290ae55073cbac645a8830b6455827765091cdc"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-03-19.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-03-19.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 13.4,
+  "week": "volatile",
+  "split": "test"
+ },
+ "LTCUSDT_2024-03-19": {
+  "symbol": "LTCUSDT",
+  "day": "2024-03-19",
+  "day0_ms": 1710806400000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 8683,
+  "book_rows": 6175632,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 297447,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 290646,
+  "sha256": {
+   "bookTicker": "e281c8e873e5f4aff1cc0a861a34bbd77ff9bba329f43ec484e85ee3d551c9fb",
+   "aggTrades": "c496c96a9a0532d6abd03ba10c3d28fbdc57b94713ed681f780f788c148283bc"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2024-03-19.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2024-03-19.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 4.6,
+  "week": "volatile",
+  "split": "test"
+ },
+ "SOLUSDT_2024-03-19": {
+  "symbol": "SOLUSDT",
+  "day": "2024-03-19",
+  "day0_ms": 1710806400000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 196143,
+  "book_rows": 19592190,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 3854156,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 3675228,
+  "sha256": {
+   "bookTicker": "61b537de31fae02c24fe2f99cd9227e33c29080b8a3f6abdb19b14801923eb5f",
+   "aggTrades": "bb8b971fc9d8816536f18b5b8dfd1717edd4a3b414d0f05a8d99570caecc0a39"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2024-03-19.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2024-03-19.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 16.5,
+  "week": "volatile",
+  "split": "test"
+ },
+ "BTCUSDT_2024-03-20": {
+  "symbol": "BTCUSDT",
+  "day": "2024-03-20",
+  "day0_ms": 1710892800000,
+  "bin_ms": 100,
+  "tick": 0.1,
+  "base_ticks": 619779,
+  "book_rows": 23727779,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 15,
+  "trade_prices_off_tick": 73,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 3703093,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 3522278,
+  "sha256": {
+   "bookTicker": "0d66f0037a32ed834d2b8174a4c7a39496c3544dd6052a2f60b7481988759a7d",
+   "aggTrades": "57726c279eb8da2a05d4b9f990b2663019c00a81c528e0a6acc97dabd4c726f9"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-03-20.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-03-20.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 22.2,
+  "week": "volatile",
+  "split": "test"
+ },
+ "ETHUSDT_2024-03-20": {
+  "symbol": "ETHUSDT",
+  "day": "2024-03-20",
+  "day0_ms": 1710892800000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 316099,
+  "book_rows": 18573141,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 3533314,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 3371231,
+  "sha256": {
+   "bookTicker": "73f39bc09cdb5b067661249f702960d30c3f0193f2bfc2c2ffd8529b59beda6a",
+   "aggTrades": "77f02bbd74e6c0fc224b912f84d161cc3e7da7f0f35df13c09edc224fe49beb3"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-03-20.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-03-20.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 19.1,
+  "week": "volatile",
+  "split": "test"
+ },
+ "LTCUSDT_2024-03-20": {
+  "symbol": "LTCUSDT",
+  "day": "2024-03-20",
+  "day0_ms": 1710892800000,
+  "bin_ms": 100,
+  "tick": 0.01,
+  "base_ticks": 7850,
+  "book_rows": 4835796,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 223455,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 216551,
+  "sha256": {
+   "bookTicker": "46ee4b8834c93d8f11e46716bae83a0fe1d7c78b6625a13f2cce43f3a0bdfaa6",
+   "aggTrades": "62053479478c79c186c822a299a49189795275e479b90506e8f49937e8397d17"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/LTCUSDT/LTCUSDT-bookTicker-2024-03-20.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/LTCUSDT/LTCUSDT-aggTrades-2024-03-20.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 5.5,
+  "week": "volatile",
+  "split": "test"
+ },
+ "SOLUSDT_2024-03-20": {
+  "symbol": "SOLUSDT",
+  "day": "2024-03-20",
+  "day0_ms": 1710892800000,
+  "bin_ms": 100,
+  "tick": 0.001,
+  "base_ticks": 169916,
+  "book_rows": 15376753,
+  "book_rows_outside_day": 0,
+  "book_prices_off_tick": 0,
+  "trade_prices_off_tick": 0,
+  "first_book_bin": 0,
+  "crossed_bins": 0,
+  "trade_rows": 3004057,
+  "trade_rows_outside_day": 0,
+  "trade_groups": 2886246,
+  "sha256": {
+   "bookTicker": "aaf154e0bcc6d56f4eedbfd7cb817582e68a8bd595bf24d16b86068e5692e285",
+   "aggTrades": "2608e095a9d51b5d3dea993c5827adbd331ecc7757b4cf6323ff9bf93d514b5b"
+  },
+  "source": [
+   "https://data.binance.vision/data/futures/um/daily/bookTicker/SOLUSDT/SOLUSDT-bookTicker-2024-03-20.zip",
+   "https://data.binance.vision/data/futures/um/daily/aggTrades/SOLUSDT/SOLUSDT-aggTrades-2024-03-20.zip"
+  ],
+  "license": "Binance public market data (data.binance.vision), CC BY-NC-SA 4.0",
+  "convert_secs": 13.3,
+  "week": "volatile",
+  "split": "test"
+ }
+}

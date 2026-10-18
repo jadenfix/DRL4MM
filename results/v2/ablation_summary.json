@@ -1,0 +1,188 @@
+{
+ "td3_full": {
+  "config": {
+   "seed": 0,
+   "steps": 400000
+  },
+  "val_pnl_mean": -5.335446342592474,
+  "val_pnl_std": 21.961467084147685,
+  "episodes": 216,
+  "per_symbol": {
+   "BTCUSDT": -3.863954166666125,
+   "ETHUSDT": -3.4815018055553915,
+   "LTCUSDT": -8.660883055555903
+  },
+  "fills_per_hour": 59.52777777777778,
+  "mean_abs_inv": 3.752129656690568
+ },
+ "td3_markout_reward": {
+  "config": {
+   "reward": "markout",
+   "eta": 0.002,
+   "seed": 0,
+   "steps": 400000
+  },
+  "val_pnl_mean": -1.6598725462962012,
+  "val_pnl_std": 13.520556141642835,
+  "episodes": 216,
+  "per_symbol": {
+   "BTCUSDT": -1.4847041666665466,
+   "ETHUSDT": -0.4419677777776785,
+   "LTCUSDT": -3.0529456944443787
+  },
+  "fills_per_hour": 22.72685185185185,
+  "mean_abs_inv": 1.761344501450957
+ },
+ "sac_markout_reward": {
+  "config": {
+   "algo": "sac",
+   "reward": "markout",
+   "eta": 0.002,
+   "seed": 0,
+   "steps": 400000
+  },
+  "val_pnl_mean": 0.07877134259262393,
+  "val_pnl_std": 9.27958426595971,
+  "episodes": 216,
+  "per_symbol": {
+   "BTCUSDT": 1.6574916666667134,
+   "ETHUSDT": -0.34543916666664465,
+   "LTCUSDT": -1.075738472222197
+  },
+  "fills_per_hour": 5.787037037037037,
+  "mean_abs_inv": 0.3332156198791561
+ },
+ "sac_full": {
+  "config": {
+   "algo": "sac",
+   "seed": 0,
+   "steps": 400000
+  },
+  "val_pnl_mean": -3.4412931944443783,
+  "val_pnl_std": 13.713632613158692,
+  "episodes": 216,
+  "per_symbol": {
+   "BTCUSDT": -2.5066541666667237,
+   "ETHUSDT": -3.686881666666592,
+   "LTCUSDT": -4.130343749999818
+  },
+  "fills_per_hour": 25.52314814814815,
+  "mean_abs_inv": 0.8819660358798755
+ },
+ "sac_residual_markout": {
+  "config": {
+   "algo": "sac",
+   "action": "residual",
+   "reward": "markout",
+   "eta": 0.002,
+   "seed": 0,
+   "steps": 400000
+  },
+  "val_pnl_mean": -0.8052484722222158,
+  "val_pnl_std": 11.59883455389432,
+  "episodes": 216,
+  "per_symbol": {
+   "BTCUSDT": 0.2600305555555672,
+   "ETHUSDT": 1.2893409722221822,
+   "LTCUSDT": -3.9651169444443974
+  },
+  "fills_per_hour": 11.898148148148149,
+  "mean_abs_inv": 0.6072694298422839
+ },
+ "td3_residual_markout": {
+  "config": {
+   "action": "residual",
+   "reward": "markout",
+   "eta": 0.002,
+   "seed": 0,
+   "steps": 400000
+  },
+  "val_pnl_mean": -1.6975457870370434,
+  "val_pnl_std": 11.507489020143232,
+  "episodes": 216,
+  "per_symbol": {
+   "BTCUSDT": -0.33821527777778154,
+   "ETHUSDT": -1.0203423611111175,
+   "LTCUSDT": -3.7340797222222313
+  },
+  "fills_per_hour": 5.675925925925926,
+  "mean_abs_inv": 0.7355929443043634
+ },
+ "td3_residual_pnl": {
+  "config": {
+   "action": "residual",
+   "eta": 0.002,
+   "seed": 0,
+   "steps": 400000
+  },
+  "val_pnl_mean": -3.095659907407427,
+  "val_pnl_std": 10.136784360666425,
+  "episodes": 216,
+  "per_symbol": {
+   "BTCUSDT": -1.474872222222236,
+   "ETHUSDT": -3.1753162499999945,
+   "LTCUSDT": -4.6367912500000505
+  },
+  "fills_per_hour": 34.39351851851852,
+  "mean_abs_inv": 1.7672364077146765
+ },
+ "sac_markout_mid_anchor": {
+  "config": {
+   "algo": "sac",
+   "reward": "markout",
+   "eta": 0.002,
+   "anchor": "mid",
+   "seed": 0,
+   "steps": 400000
+  },
+  "val_pnl_mean": -1.172734490740744,
+  "val_pnl_std": 10.635486934260745,
+  "episodes": 216,
+  "per_symbol": {
+   "BTCUSDT": -0.24639861111108197,
+   "ETHUSDT": -0.8820172222222453,
+   "LTCUSDT": -2.3897876388889046
+  },
+  "fills_per_hour": 10.38888888888889,
+  "mean_abs_inv": 0.5790819326721641
+ },
+ "sac_markout_basic_features": {
+  "config": {
+   "algo": "sac",
+   "reward": "markout",
+   "eta": 0.002,
+   "features": "basic",
+   "seed": 0,
+   "steps": 400000
+  },
+  "val_pnl_mean": -2.031930092592581,
+  "val_pnl_std": 14.447265438717682,
+  "episodes": 216,
+  "per_symbol": {
+   "BTCUSDT": -2.6243041666666125,
+   "ETHUSDT": -0.08114749999999225,
+   "LTCUSDT": -3.390338611111139
+  },
+  "fills_per_hour": 10.930555555555555,
+  "mean_abs_inv": 0.6939963352623322
+ },
+ "sac_markout_eta01": {
+  "config": {
+   "algo": "sac",
+   "reward": "markout",
+   "eta": 0.01,
+   "seed": 0,
+   "steps": 400000
+  },
+  "val_pnl_mean": -0.5281246759259076,
+  "val_pnl_std": 5.566511405112577,
+  "episodes": 216,
+  "per_symbol": {
+   "BTCUSDT": 0.06240972222223462,
+   "ETHUSDT": 0.06849263888891086,
+   "LTCUSDT": -1.7152763888888682
+  },
+  "fills_per_hour": 8.657407407407407,
+  "mean_abs_inv": 0.2815959116837861
+ }
+}
