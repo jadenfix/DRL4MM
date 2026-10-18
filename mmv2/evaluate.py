@@ -137,7 +137,7 @@ def markdown(res, base, agent_meta):
                      f"{s['max_dd_cumulative']:.2f} | {s['mean_abs_inv_quotes']:.2f} | {s['fills_per_hour']:.1f} | "
                      f"{s['markout_5s_bps']:+.2f} | {s['edge_at_fill_bps']:+.2f} | {s['pnl_mean_vip0_fees']:+.3f} |")
     L.append('')
-    L.append('| instrument | best baseline (validation) | agent - baseline, mean PnL / h [95% day-block CI] | sign-flip p (days) | HAC p | episodes better |')
+    L.append('| instrument | best baseline (validation) | agent - baseline, mean PnL / h [95% day-block CI] | sign-flip p (days) | HAC p | share of hours agent strictly ahead |')
     L.append('|---|---|---|---|---|---|')
     for sym in SYMBOLS:
         e = res['per_symbol'][sym]
@@ -147,4 +147,19 @@ def markdown(res, base, agent_meta):
                    ('vs_best_baseline_instrument_day_clusters', 'pooled, clustered by instrument-day')):
         t = res['pooled'][k]
         L.append(f"| ALL | {lab} | {t['diff_mean']:+.3f} {fmt_ci(t['diff_ci95'])} | {t['p_sign_flip']:.3f} | {t['p_hac']:.3f} | {t['episodes_better']:.2f} |")
+    L.append('')
+    L.append('Against whichever required baseline did best on the test days themselves (chosen ex post, which favours the baseline):')
+    L.append('')
+    L.append('| instrument | best baseline (test, ex post) | agent - baseline [95% CI] | sign-flip p | HAC p |')
+    L.append('|---|---|---|---|---|')
+    for sym in SYMBOLS:
+        e = res['per_symbol'][sym]
+        t = e['vs_best_baseline_ex_post']
+        L.append(f"| {sym} | {LABEL[e['best_baseline_ex_post']]} | {t['diff_mean']:+.3f} {fmt_ci(t['diff_ci95'])} | {t['p_sign_flip']:.3f} | {t['p_hac']:.3f} |")
+    L.append('')
+    seeds = sorted(p for p in res['pooled']['summary'] if p.startswith('agent_seed'))
+    if seeds:
+        L.append('Individual ensemble members, pooled test mean PnL / h [95% CI]: ' + '; '.join(
+            f"{p.replace('agent_', '')} {res['pooled']['summary'][p]['pnl_mean']:+.3f} {fmt_ci(res['pooled']['summary'][p]['pnl_mean_ci'])}" for p in seeds) + '.')
     return '\n'.join(L)
+

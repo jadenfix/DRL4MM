@@ -22,6 +22,10 @@ ABLATIONS = {
     'td3_residual_markout': {'action': 'residual', 'reward': 'markout', 'eta': 0.002},
     'sac_residual_markout': {'algo': 'sac', 'action': 'residual', 'reward': 'markout', 'eta': 0.002},
     'td3_residual_pnl': {'action': 'residual', 'eta': 0.002},
+    # round 2, on top of SAC + markout reward (the best of round 1 on validation)
+    'sac_markout_mid_anchor': {'algo': 'sac', 'reward': 'markout', 'eta': 0.002, 'anchor': 'mid'},
+    'sac_markout_basic_features': {'algo': 'sac', 'reward': 'markout', 'eta': 0.002, 'features': 'basic'},
+    'sac_markout_eta01': {'algo': 'sac', 'reward': 'markout', 'eta': 0.01},
 }
 
 

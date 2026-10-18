@@ -114,6 +114,8 @@ def main(data, runs, site, ref_path):
                          'agent': {k: sa[k] for k in ('pnl_mean', 'pnl_mean_ci', 'sharpe', 'sharpe_ci', 'fills_per_hour', 'mean_abs_inv_quotes', 'markout_5s_bps', 'max_dd_cumulative')},
                          'baseline': {k: sb[k] for k in ('pnl_mean', 'pnl_mean_ci', 'sharpe', 'sharpe_ci', 'fills_per_hour', 'mean_abs_inv_quotes', 'markout_5s_bps', 'max_dd_cumulative')},
                          'diff_mean': t['diff_mean'], 'diff_ci95': t['diff_ci95'], 'p_sign_flip': t['p_sign_flip'],
+                         'ex_post': {'label': LABEL[e['best_baseline_ex_post']], 'diff_mean': e['vs_best_baseline_ex_post']['diff_mean'],
+                                     'diff_ci95': e['vs_best_baseline_ex_post']['diff_ci95'], 'p_sign_flip': e['vs_best_baseline_ex_post']['p_sign_flip']},
                          'seen_in_training': sym != 'SOLUSDT'}}
         for k, (d, hour) in enumerate(SLICE_STARTS):
             day = Day(Path(data) / f'{sym}_{d}.npz')

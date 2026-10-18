@@ -1,0 +1,1978 @@
+{
+ "split": "test",
+ "per_symbol": {
+  "BTCUSDT": {
+   "summary": {
+    "agent": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -1.0556444444444546,
+     "pnl_total": -152.01280000000145,
+     "pnl_std": 9.92472011883419,
+     "sharpe": -0.10636516010573971,
+     "win_rate": 0.11805555555555555,
+     "max_dd_episode_mean": 5.860288888888891,
+     "max_dd_cumulative": 218.98060000000123,
+     "mean_abs_inv_quotes": 0.32235722843107995,
+     "inv_std_quotes": 0.2617078866949129,
+     "fills_per_hour": 1.5,
+     "filled_notional_per_hour": 1497.1696270833334,
+     "markout_5s_bps": -0.019881670357408905,
+     "edge_at_fill_bps": 4.044557256482554,
+     "liquidation_cost_mean": -0.0004798611111193433,
+     "pnl_mean_vip0_fees": -1.6368721372222323,
+     "pnl_mean_ci": [
+      -2.863281944444456,
+      0.39052499999998563
+     ],
+     "sharpe_ci": [
+      -0.2385887315965635,
+      0.12292009681629998
+     ]
+    },
+    "agent_seed0": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -0.4307479166666973,
+     "pnl_total": -62.027700000004415,
+     "pnl_std": 10.057058238613129,
+     "sharpe": -0.042830408897592064,
+     "win_rate": 0.1388888888888889,
+     "max_dd_episode_mean": 5.4881645833333375,
+     "max_dd_cumulative": 183.51370000000315,
+     "mean_abs_inv_quotes": 0.32378908514539356,
+     "inv_std_quotes": 0.23046469759612975,
+     "fills_per_hour": 1.5069444444444444,
+     "filled_notional_per_hour": 1484.4176618055556,
+     "markout_5s_bps": 0.2196260265577792,
+     "edge_at_fill_bps": 2.587549220885789,
+     "liquidation_cost_mean": -0.0004288194444702261,
+     "pnl_mean_vip0_fees": -0.9791263346180862,
+     "pnl_mean_ci": [
+      -2.0451131944444905,
+      0.5859458333333296
+     ],
+     "sharpe_ci": [
+      -0.16256794907352548,
+      0.21800419332955176
+     ]
+    },
+    "agent_seed1": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -6.355588888888602,
+     "pnl_total": -915.2047999999587,
+     "pnl_std": 22.711368036826308,
+     "sharpe": -0.2798417461503448,
+     "win_rate": 0.3333333333333333,
+     "max_dd_episode_mean": 18.838193055555493,
+     "max_dd_cumulative": 958.9131999999781,
+     "mean_abs_inv_quotes": 1.513883289945145,
+     "inv_std_quotes": 0.8654623538828325,
+     "fills_per_hour": 79.04166666666667,
+     "filled_notional_per_hour": 77559.75120902777,
+     "markout_5s_bps": -0.8964775064914082,
+     "edge_at_fill_bps": 0.42827524544962864,
+     "liquidation_cost_mean": -0.002120833333316499,
+     "pnl_mean_vip0_fees": -22.879283782430274,
+     "pnl_mean_ci": [
+      -16.18138472222186,
+      -0.27831597222223003
+     ],
+     "sharpe_ci": [
+      -0.4929286139019227,
+      -0.05972319094814714
+     ]
+    },
+    "agent_seed2": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -2.6945715277776663,
+     "pnl_total": -388.0182999999839,
+     "pnl_std": 13.237400196505867,
+     "sharpe": -0.20355745748994755,
+     "win_rate": 0.3958333333333333,
+     "max_dd_episode_mean": 14.60270972222213,
+     "max_dd_cumulative": 420.2341999999787,
+     "mean_abs_inv_quotes": 1.640799688443445,
+     "inv_std_quotes": 1.5448885612079724,
+     "fills_per_hour": 28.395833333333332,
+     "filled_notional_per_hour": 27875.425870833333,
+     "markout_5s_bps": -0.9125054843985853,
+     "edge_at_fill_bps": 0.3775723988703989,
+     "liquidation_cost_mean": -0.004397569444448222,
+     "pnl_mean_vip0_fees": -9.881822867742946,
+     "pnl_mean_ci": [
+      -6.65109027777766,
+      0.1804229166666739
+     ],
+     "sharpe_ci": [
+      -0.4670555097482476,
+      0.01719004887386244
+     ]
+    },
+    "agent_seed3": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -3.9886826388887906,
+     "pnl_total": -574.3702999999858,
+     "pnl_std": 21.675117889716407,
+     "sharpe": -0.18402126619026096,
+     "win_rate": 0.25,
+     "max_dd_episode_mean": 19.779567708333325,
+     "max_dd_cumulative": 636.8831999999911,
+     "mean_abs_inv_quotes": 1.4898454820108207,
+     "inv_std_quotes": 0.9660599611468091,
+     "fills_per_hour": 13.069444444444445,
+     "filled_notional_per_hour": 12823.587297916667,
+     "markout_5s_bps": -0.8916038520282432,
+     "edge_at_fill_bps": 0.6080563577626921,
+     "liquidation_cost_mean": -0.0018347222222472068,
+     "pnl_mean_vip0_fees": -7.492352946736012,
+     "pnl_mean_ci": [
+      -8.884581249999954,
+      -0.24570277777775829
+     ],
+     "sharpe_ci": [
+      -0.30485467345497214,
+      -0.06381655997455074
+     ]
+    },
+    "agent_seed4": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": 1.15696041666665,
+     "pnl_total": 166.6022999999976,
+     "pnl_std": 8.977009243812924,
+     "sharpe": 0.12888038602210894,
+     "win_rate": 0.2986111111111111,
+     "max_dd_episode_mean": 7.334280902777782,
+     "max_dd_cumulative": 54.98249999999928,
+     "mean_abs_inv_quotes": 0.44221291710939076,
+     "inv_std_quotes": 0.40474112566682985,
+     "fills_per_hour": 7.222222222222222,
+     "filled_notional_per_hour": 7101.076890277778,
+     "markout_5s_bps": -0.6793130524011459,
+     "edge_at_fill_bps": 0.8388561514573518,
+     "liquidation_cost_mean": -0.0004479166666657461,
+     "pnl_mean_vip0_fees": -0.4677077172916835,
+     "pnl_mean_ci": [
+      0.09259027777778862,
+      2.5513997222221554
+     ],
+     "sharpe_ci": [
+      0.05133986557101129,
+      0.19847169346682733
+     ]
+    },
+    "avellaneda_stoikov": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": 0.010652777777777721,
+     "pnl_total": 1.5339999999999918,
+     "pnl_std": 0.6919249092150714,
+     "sharpe": 0.015395858186204583,
+     "win_rate": 0.125,
+     "max_dd_episode_mean": 0.15976145833333058,
+     "max_dd_cumulative": 6.020800000000236,
+     "mean_abs_inv_quotes": 0.00021797893104737596,
+     "inv_std_quotes": 0.006782819228606722,
+     "fills_per_hour": 0.7638888888888888,
+     "filled_notional_per_hour": 757.4738597222223,
+     "markout_5s_bps": 0.418618506713177,
+     "edge_at_fill_bps": 6.6479779491742494,
+     "liquidation_cost_mean": 0.0,
+     "pnl_mean_vip0_fees": -0.1408419941666667,
+     "pnl_mean_ci": [
+      -0.09077777777778016,
+      0.1120833333333356
+     ],
+     "sharpe_ci": [
+      -0.1174364419683321,
+      0.19238474724102028
+     ]
+    },
+    "fixed_micro": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": 0.4237083333333176,
+     "pnl_total": 61.013999999997736,
+     "pnl_std": 11.938322863690276,
+     "sharpe": 0.035491445337100254,
+     "win_rate": 0.2569444444444444,
+     "max_dd_episode_mean": 9.384806944444449,
+     "max_dd_cumulative": 222.04880000000242,
+     "mean_abs_inv_quotes": 0.6678979945346615,
+     "inv_std_quotes": 0.4384538563701178,
+     "fills_per_hour": 2.8055555555555554,
+     "filled_notional_per_hour": 2788.0900541666665,
+     "markout_5s_bps": -0.14085055359478965,
+     "edge_at_fill_bps": 6.090675151948215,
+     "liquidation_cost_mean": -0.0009531250000196994,
+     "pnl_mean_vip0_fees": -0.6516638262847381,
+     "pnl_mean_ci": [
+      -1.9308513888889196,
+      2.167958333333327
+     ],
+     "sharpe_ci": [
+      -0.1570474534176601,
+      0.3389712395772769
+     ]
+    },
+    "fixed_mid": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": 0.3714805555555698,
+     "pnl_total": 53.49320000000205,
+     "pnl_std": 11.76000451275001,
+     "sharpe": 0.03158847049359688,
+     "win_rate": 0.2569444444444444,
+     "max_dd_episode_mean": 9.385288541666661,
+     "max_dd_cumulative": 229.3070999999984,
+     "mean_abs_inv_quotes": 0.6603131179914518,
+     "inv_std_quotes": 0.4363816335380793,
+     "fills_per_hour": 2.8125,
+     "filled_notional_per_hour": 2794.302630555556,
+     "markout_5s_bps": -0.03455915868174381,
+     "edge_at_fill_bps": 6.032875034238467,
+     "liquidation_cost_mean": -0.0009440972222362928,
+     "pnl_mean_vip0_fees": -0.7016165287152637,
+     "pnl_mean_ci": [
+      -2.3597062499999546,
+      2.336686111111108
+     ],
+     "sharpe_ci": [
+      -0.18391714010870805,
+      0.338475617826835
+     ]
+    },
+    "repo_fixed_midpoint": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": 0.3996715277777625,
+     "pnl_total": 57.5526999999978,
+     "pnl_std": 11.933761031730667,
+     "sharpe": 0.0334908271344697,
+     "win_rate": 0.2569444444444444,
+     "max_dd_episode_mean": 9.422960069444436,
+     "max_dd_cumulative": 226.55989999999997,
+     "mean_abs_inv_quotes": 0.6602899698433036,
+     "inv_std_quotes": 0.4371755080489426,
+     "fills_per_hour": 2.8333333333333335,
+     "filled_notional_per_hour": 2811.1886729166667,
+     "markout_5s_bps": -0.06215176459103818,
+     "edge_at_fill_bps": 6.071083194727747,
+     "liquidation_cost_mean": -0.0009357638889026828,
+     "pnl_mean_vip0_fees": -0.6715205555902932,
+     "pnl_mean_ci": [
+      -2.250604861111073,
+      2.3202513888888316
+     ],
+     "sharpe_ci": [
+      -0.16808997478180843,
+      0.33840857255564244
+     ]
+    },
+    "td3_v1_previous": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -0.6716305555555624,
+     "pnl_total": -96.71480000000099,
+     "pnl_std": 23.799495222262177,
+     "sharpe": -0.028220369771847748,
+     "win_rate": 0.4166666666666667,
+     "max_dd_episode_mean": 21.381393055555584,
+     "max_dd_cumulative": 380.55310000000236,
+     "mean_abs_inv_quotes": 3.185522107209456,
+     "inv_std_quotes": 0.8781577485797646,
+     "fills_per_hour": 11.42361111111111,
+     "filled_notional_per_hour": 10791.097442361111,
+     "markout_5s_bps": -0.5892459020842553,
+     "edge_at_fill_bps": 1.0551778702407957,
+     "liquidation_cost_mean": -0.004385069444471886,
+     "pnl_mean_vip0_fees": -4.509575840729173,
+     "pnl_mean_ci": [
+      -5.200372222222273,
+      2.943827777777897
+     ],
+     "sharpe_ci": [
+      -0.20388696038153634,
+      0.1064240485852347
+     ]
+    }
+   },
+   "best_baseline_by_validation": "fixed_mid",
+   "vs_best_baseline": {
+    "n_episodes": 144,
+    "n_clusters": 6,
+    "cluster": "instrument-day",
+    "diff_mean": -1.4271250000000242,
+    "diff_ci95": [
+     -3.3980555555555743,
+     0.20222222222215513
+    ],
+    "p_sign_flip": 0.25,
+    "hac_t": -1.336818768214979,
+    "p_hac": 0.18340467822453993,
+    "episodes_better": 0.1597222222222222
+   },
+   "best_baseline_ex_post": "repo_fixed_midpoint",
+   "vs_best_baseline_ex_post": {
+    "n_episodes": 144,
+    "n_clusters": 6,
+    "cluster": "instrument-day",
+    "diff_mean": -1.455315972222217,
+    "diff_ci95": [
+     -3.3837548611110315,
+     0.12548079861106798
+    ],
+    "p_sign_flip": 0.25,
+    "hac_t": -1.344690717529104,
+    "p_hac": 0.18085411847843477,
+    "episodes_better": 0.1597222222222222
+   },
+   "vs_each": {
+    "fixed_mid": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": -1.4271250000000242,
+     "diff_ci95": [
+      -3.3980555555555743,
+      0.20222222222215513
+     ],
+     "p_sign_flip": 0.25,
+     "hac_t": -1.336818768214979,
+     "p_hac": 0.18340467822453993,
+     "episodes_better": 0.1597222222222222
+    },
+    "avellaneda_stoikov": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": -1.0662972222222322,
+     "diff_ci95": [
+      -2.8629083333333494,
+      0.3816694444444361
+     ],
+     "p_sign_flip": 0.3125,
+     "hac_t": -1.4747961923637738,
+     "p_hac": 0.14246559159784913,
+     "episodes_better": 0.14583333333333334
+    },
+    "repo_fixed_midpoint": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": -1.455315972222217,
+     "diff_ci95": [
+      -3.3837548611110315,
+      0.12548079861106798
+     ],
+     "p_sign_flip": 0.25,
+     "hac_t": -1.344690717529104,
+     "p_hac": 0.18085411847843477,
+     "episodes_better": 0.1597222222222222
+    },
+    "td3_v1_previous": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": -0.38401388888889204,
+     "diff_ci95": [
+      -5.293134027777851,
+      4.069934722222303
+     ],
+     "p_sign_flip": 0.8125,
+     "hac_t": -0.14853616628559901,
+     "p_hac": 0.8821289000750244,
+     "episodes_better": 0.5208333333333334
+    },
+    "fixed_micro": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": -1.4793527777777722,
+     "diff_ci95": [
+      -3.1741083333333253,
+      -0.016791666666641447
+     ],
+     "p_sign_flip": 0.1875,
+     "hac_t": -1.5238988955445258,
+     "p_hac": 0.12974244528770557,
+     "episodes_better": 0.16666666666666666
+    }
+   }
+  },
+  "ETHUSDT": {
+   "summary": {
+    "agent": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -1.0100346527777593,
+     "pnl_total": -145.44498999999735,
+     "pnl_std": 23.094571726873113,
+     "sharpe": -0.043734721073111354,
+     "win_rate": 0.19444444444444445,
+     "max_dd_episode_mean": 10.85797545138881,
+     "max_dd_cumulative": 356.07828000000154,
+     "mean_abs_inv_quotes": 0.49642364166229314,
+     "inv_std_quotes": 0.4351092107767389,
+     "fills_per_hour": 2.8958333333333335,
+     "filled_notional_per_hour": 2890.6651577083335,
+     "markout_5s_bps": 0.0806488328058908,
+     "edge_at_fill_bps": 4.730565282826913,
+     "liquidation_cost_mean": -0.001434722222232349,
+     "pnl_mean_vip0_fees": -2.0198704192152594,
+     "pnl_mean_ci": [
+      -3.2835449305556046,
+      0.3880729166667341
+     ],
+     "sharpe_ci": [
+      -0.12861671257463678,
+      0.03830223976518574
+     ]
+    },
+    "agent_seed0": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -0.3490363888888608,
+     "pnl_total": -50.26123999999595,
+     "pnl_std": 19.135646875379706,
+     "sharpe": -0.018240114439921955,
+     "win_rate": 0.19444444444444445,
+     "max_dd_episode_mean": 10.137860277777769,
+     "max_dd_cumulative": 233.90951999999663,
+     "mean_abs_inv_quotes": 0.5473476782187117,
+     "inv_std_quotes": 0.38326255999815345,
+     "fills_per_hour": 2.8819444444444446,
+     "filled_notional_per_hour": 2824.720361041667,
+     "markout_5s_bps": -0.8109291296532671,
+     "edge_at_fill_bps": 3.498007082340751,
+     "liquidation_cost_mean": -0.001460798611115403,
+     "pnl_mean_vip0_fees": -1.3257657370520555,
+     "pnl_mean_ci": [
+      -2.575716249999922,
+      1.8040454166666764
+     ],
+     "sharpe_ci": [
+      -0.16657664117316293,
+      0.14573148649411946
+     ]
+    },
+    "agent_seed1": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -11.91010249999985,
+     "pnl_total": -1715.0547599999784,
+     "pnl_std": 28.349845351440944,
+     "sharpe": -0.42011172732533064,
+     "win_rate": 0.2986111111111111,
+     "max_dd_episode_mean": 25.063849270833153,
+     "max_dd_cumulative": 1775.7499599999812,
+     "mean_abs_inv_quotes": 1.678784066274047,
+     "inv_std_quotes": 1.0776259670645092,
+     "fills_per_hour": 115.29166666666667,
+     "filled_notional_per_hour": 111390.42550951388,
+     "markout_5s_bps": -1.069516973355158,
+     "edge_at_fill_bps": 0.4728686714421931,
+     "liquidation_cost_mean": -0.004327534722272357,
+     "pnl_mean_vip0_fees": -35.26324597563527,
+     "pnl_mean_ci": [
+      -26.662957916666198,
+      0.42227611111112356
+     ],
+     "sharpe_ci": [
+      -0.7590945246722465,
+      0.05591568839637187
+     ]
+    },
+    "agent_seed2": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -4.638406458333325,
+     "pnl_total": -667.9305299999988,
+     "pnl_std": 19.334579693020416,
+     "sharpe": -0.239902109690429,
+     "win_rate": 0.4097222222222222,
+     "max_dd_episode_mean": 19.85852704861114,
+     "max_dd_cumulative": 669.4290999999981,
+     "mean_abs_inv_quotes": 1.8852916468964078,
+     "inv_std_quotes": 1.7343927585968149,
+     "fills_per_hour": 33.916666666666664,
+     "filled_notional_per_hour": 32853.513133333334,
+     "markout_5s_bps": -0.9196392089842133,
+     "edge_at_fill_bps": 0.5372008073081646,
+     "liquidation_cost_mean": -0.008015069444501342,
+     "pnl_mean_vip0_fees": -12.92329982402777,
+     "pnl_mean_ci": [
+      -8.348099513888732,
+      -1.7107313888890263
+     ],
+     "sharpe_ci": [
+      -0.30984484774858606,
+      -0.17410257827662043
+     ]
+    },
+    "agent_seed3": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -0.7475840972222451,
+     "pnl_total": -107.65211000000329,
+     "pnl_std": 36.76642639922666,
+     "sharpe": -0.020333335883793418,
+     "win_rate": 0.2777777777777778,
+     "max_dd_episode_mean": 26.225294201388852,
+     "max_dd_cumulative": 554.3955500000104,
+     "mean_abs_inv_quotes": 1.8403015065508466,
+     "inv_std_quotes": 1.0642419587891152,
+     "fills_per_hour": 17.229166666666668,
+     "filled_notional_per_hour": 16821.1372525,
+     "markout_5s_bps": -0.8675512289361808,
+     "edge_at_fill_bps": 0.8767955751583717,
+     "liquidation_cost_mean": -0.003656006944459358,
+     "pnl_mean_vip0_fees": -5.082702693295162,
+     "pnl_mean_ci": [
+      -6.44426791666682,
+      4.419018680555798
+     ],
+     "sharpe_ci": [
+      -0.12815422509618535,
+      0.12274154631734849
+     ]
+    },
+    "agent_seed4": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -2.078183194444439,
+     "pnl_total": -299.2583799999992,
+     "pnl_std": 15.354313725865147,
+     "sharpe": -0.135348491085188,
+     "win_rate": 0.3541666666666667,
+     "max_dd_episode_mean": 10.881579513888884,
+     "max_dd_cumulative": 405.8574100000005,
+     "mean_abs_inv_quotes": 0.4694954738038639,
+     "inv_std_quotes": 0.4907716354572117,
+     "fills_per_hour": 11.965277777777779,
+     "filled_notional_per_hour": 11676.178722222223,
+     "markout_5s_bps": -1.0733686735326027,
+     "edge_at_fill_bps": 0.9552752603925045,
+     "liquidation_cost_mean": -0.000993888888889553,
+     "pnl_mean_vip0_fees": -4.6454449259722175,
+     "pnl_mean_ci": [
+      -5.190404513888857,
+      0.5186685416666622
+     ],
+     "sharpe_ci": [
+      -0.22656927194689405,
+      0.17971566498620145
+     ]
+    },
+    "avellaneda_stoikov": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -0.03008638888889692,
+     "pnl_total": -4.3324400000011565,
+     "pnl_std": 1.413468734459304,
+     "sharpe": -0.02128550010015319,
+     "win_rate": 0.09722222222222222,
+     "max_dd_episode_mean": 0.3985555555555591,
+     "max_dd_cumulative": 14.402840000001333,
+     "mean_abs_inv_quotes": 0.000466820987654321,
+     "inv_std_quotes": 0.009563637002371995,
+     "fills_per_hour": 1.3611111111111112,
+     "filled_notional_per_hour": 1367.783931111111,
+     "markout_5s_bps": -0.7812446404381223,
+     "edge_at_fill_bps": 7.114546300409629,
+     "liquidation_cost_mean": 0.0,
+     "pnl_mean_vip0_fees": -0.3036431751111192,
+     "pnl_mean_ci": [
+      -0.23025250000002886,
+      0.16699027777777709
+     ],
+     "sharpe_ci": [
+      -0.11114556647474133,
+      0.17692945082574538
+     ]
+    },
+    "fixed_micro": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -5.192856736111292,
+     "pnl_total": -747.771370000026,
+     "pnl_std": 29.953170396283387,
+     "sharpe": -0.1733658463331022,
+     "win_rate": 0.3194444444444444,
+     "max_dd_episode_mean": 24.54563454861119,
+     "max_dd_cumulative": 922.3251500000308,
+     "mean_abs_inv_quotes": 1.409590401431468,
+     "inv_std_quotes": 1.219152580667512,
+     "fills_per_hour": 47.81944444444444,
+     "filled_notional_per_hour": 47496.14993277778,
+     "markout_5s_bps": -0.9748826464206198,
+     "edge_at_fill_bps": 2.1951253404257125,
+     "liquidation_cost_mean": -0.0032912500000037426,
+     "pnl_mean_vip0_fees": -15.548482818430736,
+     "pnl_mean_ci": [
+      -13.080654861111624,
+      0.006169583333375941
+     ],
+     "sharpe_ci": [
+      -0.3009306583509545,
+      0.0009193777137792705
+     ]
+    },
+    "fixed_mid": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -5.228983819444607,
+     "pnl_total": -752.9736700000234,
+     "pnl_std": 30.15273658030935,
+     "sharpe": -0.17341655890892807,
+     "win_rate": 0.3333333333333333,
+     "max_dd_episode_mean": 24.59233024305556,
+     "max_dd_cumulative": 924.4015500000243,
+     "mean_abs_inv_quotes": 1.4105009466528575,
+     "inv_std_quotes": 1.2126996879995142,
+     "fills_per_hour": 47.861111111111114,
+     "filled_notional_per_hour": 47537.54643770834,
+     "markout_5s_bps": -0.9928394444998476,
+     "edge_at_fill_bps": 2.1910391131938534,
+     "liquidation_cost_mean": -0.0032627083333420298,
+     "pnl_mean_vip0_fees": -15.591511145111276,
+     "pnl_mean_ci": [
+      -13.104267569444978,
+      0.06341319444446311
+     ],
+     "sharpe_ci": [
+      -0.2983143010333325,
+      0.009406567774172411
+     ]
+    },
+    "repo_fixed_midpoint": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -2.6538895138889447,
+     "pnl_total": -382.16009000000804,
+     "pnl_std": 26.0315129785547,
+     "sharpe": -0.10194910745584683,
+     "win_rate": 0.2777777777777778,
+     "max_dd_episode_mean": 15.55157687500002,
+     "max_dd_cumulative": 472.5710800000078,
+     "mean_abs_inv_quotes": 0.7883726961192923,
+     "inv_std_quotes": 0.6628070442726883,
+     "fills_per_hour": 5.784722222222222,
+     "filled_notional_per_hour": 5785.782949027777,
+     "markout_5s_bps": -0.7031621561669401,
+     "edge_at_fill_bps": 5.882632978362675,
+     "liquidation_cost_mean": -0.0022702083333254247,
+     "pnl_mean_vip0_fees": -4.429268639666723,
+     "pnl_mean_ci": [
+      -8.175587847222333,
+      0.4035699999999404
+     ],
+     "sharpe_ci": [
+      -0.21619358205474487,
+      0.024342685105381002
+     ]
+    },
+    "td3_v1_previous": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -2.9500022222223814,
+     "pnl_total": -424.8003200000229,
+     "pnl_std": 34.52360036519846,
+     "sharpe": -0.08544885791216994,
+     "win_rate": 0.4930555555555556,
+     "max_dd_episode_mean": 28.23814093750012,
+     "max_dd_cumulative": 491.6216800000208,
+     "mean_abs_inv_quotes": 3.48198474454921,
+     "inv_std_quotes": 0.922394006859011,
+     "fills_per_hour": 16.09027777777778,
+     "filled_notional_per_hour": 14772.468144930557,
+     "markout_5s_bps": -0.8798171880949816,
+     "edge_at_fill_bps": 1.7390699185990606,
+     "liquidation_cost_mean": -0.008045729166638161,
+     "pnl_mean_vip0_fees": -7.66291876490641,
+     "pnl_mean_ci": [
+      -7.1174739166669285,
+      -0.4687110416667457
+     ],
+     "sharpe_ci": [
+      -0.20184354548884945,
+      -0.015712506718736266
+     ]
+    }
+   },
+   "best_baseline_by_validation": "fixed_mid",
+   "vs_best_baseline": {
+    "n_episodes": 144,
+    "n_clusters": 6,
+    "cluster": "instrument-day",
+    "diff_mean": 4.218949166666848,
+    "diff_ci95": [
+     -0.25855013888887474,
+     10.02508895833386
+    ],
+    "p_sign_flip": 0.25,
+    "hac_t": 1.5673511541908562,
+    "p_hac": 0.11924284057452252,
+    "episodes_better": 0.3333333333333333
+   },
+   "best_baseline_ex_post": "avellaneda_stoikov",
+   "vs_best_baseline_ex_post": {
+    "n_episodes": 144,
+    "n_clusters": 6,
+    "cluster": "instrument-day",
+    "diff_mean": -0.9799482638888625,
+    "diff_ci95": [
+     -3.112648072916653,
+     0.32722083333344976
+    ],
+    "p_sign_flip": 0.75,
+    "hac_t": -0.47634158059218534,
+    "p_hac": 0.6345580531414394,
+    "episodes_better": 0.1875
+   },
+   "vs_each": {
+    "fixed_mid": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": 4.218949166666848,
+     "diff_ci95": [
+      -0.25855013888887474,
+      10.02508895833386
+     ],
+     "p_sign_flip": 0.25,
+     "hac_t": 1.5673511541908562,
+     "p_hac": 0.11924284057452252,
+     "episodes_better": 0.3333333333333333
+    },
+    "avellaneda_stoikov": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": -0.9799482638888625,
+     "diff_ci95": [
+      -3.112648072916653,
+      0.32722083333344976
+     ],
+     "p_sign_flip": 0.75,
+     "hac_t": -0.47634158059218534,
+     "p_hac": 0.6345580531414394,
+     "episodes_better": 0.1875
+    },
+    "repo_fixed_midpoint": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": 1.6438548611111854,
+     "diff_ci95": [
+      -0.020455374999769363,
+      4.895456666666841
+     ],
+     "p_sign_flip": 0.4375,
+     "hac_t": 1.163859309300335,
+     "p_hac": 0.24641923363576818,
+     "episodes_better": 0.24305555555555555
+    },
+    "td3_v1_previous": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": 1.939967569444622,
+     "diff_ci95": [
+      -2.2082447222221333,
+      7.292308125000293
+     ],
+     "p_sign_flip": 0.53125,
+     "hac_t": 0.9234764237829238,
+     "p_hac": 0.3573145772732898,
+     "episodes_better": 0.5069444444444444
+    },
+    "fixed_micro": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": 4.182822083333532,
+     "diff_ci95": [
+      -0.18735937500002503,
+      10.0275715972227
+     ],
+     "p_sign_flip": 0.1875,
+     "hac_t": 1.5376022414870785,
+     "p_hac": 0.1263556605824349,
+     "episodes_better": 0.3472222222222222
+    }
+   }
+  },
+  "LTCUSDT": {
+   "summary": {
+    "agent": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -0.746462916666697,
+     "pnl_total": -107.49066000000437,
+     "pnl_std": 16.424427076693135,
+     "sharpe": -0.04544833820876195,
+     "win_rate": 0.11805555555555555,
+     "max_dd_episode_mean": 9.812808854166693,
+     "max_dd_cumulative": 299.5310599999991,
+     "mean_abs_inv_quotes": 0.44503480070969537,
+     "inv_std_quotes": 0.3363436408075413,
+     "fills_per_hour": 3.388888888888889,
+     "filled_notional_per_hour": 3109.968585555556,
+     "markout_5s_bps": -0.4914369022866832,
+     "edge_at_fill_bps": 3.1564687520426635,
+     "liquidation_cost_mean": -0.03976607638888336,
+     "pnl_mean_vip0_fees": -1.68546072334378,
+     "pnl_mean_ci": [
+      -3.404119930555606,
+      1.136806874999956
+     ],
+     "sharpe_ci": [
+      -0.1866888858614649,
+      0.12117869088542771
+     ]
+    },
+    "agent_seed0": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -3.936088958333283,
+     "pnl_total": -566.7968099999928,
+     "pnl_std": 25.495517193287668,
+     "sharpe": -0.15438356980534432,
+     "win_rate": 0.1736111111111111,
+     "max_dd_episode_mean": 17.85996562500001,
+     "max_dd_cumulative": 647.611129999984,
+     "mean_abs_inv_quotes": 0.8090456949974507,
+     "inv_std_quotes": 0.6582308664904386,
+     "fills_per_hour": 22.59027777777778,
+     "filled_notional_per_hour": 19515.29093055556,
+     "markout_5s_bps": -1.1902248555687789,
+     "edge_at_fill_bps": 1.056627527247208,
+     "liquidation_cost_mean": -0.07898406250000296,
+     "pnl_mean_vip0_fees": -8.463586876822866,
+     "pnl_mean_ci": [
+      -9.268266666666513,
+      -0.2039821527778219
+     ],
+     "sharpe_ci": [
+      -0.2736262086221486,
+      -0.0245062002468348
+     ]
+    },
+    "agent_seed1": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -2.442183819444336,
+     "pnl_total": -351.67446999998435,
+     "pnl_std": 29.12061956960047,
+     "sharpe": -0.08386441825550218,
+     "win_rate": 0.4166666666666667,
+     "max_dd_episode_mean": 25.75268104166667,
+     "max_dd_cumulative": 495.94692999998887,
+     "mean_abs_inv_quotes": 2.1126476261032203,
+     "inv_std_quotes": 1.0879100743440615,
+     "fills_per_hour": 40.78472222222222,
+     "filled_notional_per_hour": 35014.95822347222,
+     "markout_5s_bps": -1.2820829833718745,
+     "edge_at_fill_bps": 0.9656424542387219,
+     "liquidation_cost_mean": -0.14018079861110366,
+     "pnl_mean_vip0_fees": -10.539588743878362,
+     "pnl_mean_ci": [
+      -8.501818717013771,
+      1.592525972222476
+     ],
+     "sharpe_ci": [
+      -0.22583685580109034,
+      0.050630757508747605
+     ]
+    },
+    "agent_seed2": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -2.6926615277778425,
+     "pnl_total": -387.74326000000934,
+     "pnl_std": 18.897922713411102,
+     "sharpe": -0.142484524284088,
+     "win_rate": 0.3472222222222222,
+     "max_dd_episode_mean": 16.394595138888935,
+     "max_dd_cumulative": 505.40266000000634,
+     "mean_abs_inv_quotes": 0.8840270889082625,
+     "inv_std_quotes": 0.8009277553965215,
+     "fills_per_hour": 40.354166666666664,
+     "filled_notional_per_hour": 34748.510204583334,
+     "markout_5s_bps": -1.2996248217705244,
+     "edge_at_fill_bps": 0.9337477769088516,
+     "liquidation_cost_mean": -0.06250440972221977,
+     "pnl_mean_vip0_fees": -10.127410891350758,
+     "pnl_mean_ci": [
+      -9.373095763888987,
+      1.2185122222221798
+     ],
+     "sharpe_ci": [
+      -0.34262100386500843,
+      0.11135689306160168
+     ]
+    },
+    "agent_seed3": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -3.5567627777777733,
+     "pnl_total": -512.1738399999994,
+     "pnl_std": 20.466628211007492,
+     "sharpe": -0.17378352414028084,
+     "win_rate": 0.2847222222222222,
+     "max_dd_episode_mean": 15.458161111111103,
+     "max_dd_cumulative": 513.8515999999992,
+     "mean_abs_inv_quotes": 0.875460824356844,
+     "inv_std_quotes": 0.7635938576869576,
+     "fills_per_hour": 18.40277777777778,
+     "filled_notional_per_hour": 15819.339753125,
+     "markout_5s_bps": -1.4334171596187348,
+     "edge_at_fill_bps": 1.010467309001449,
+     "liquidation_cost_mean": -0.08517506944444639,
+     "pnl_mean_vip0_fees": -7.387597555486106,
+     "pnl_mean_ci": [
+      -6.7822416666667085,
+      -1.0561504861110926
+     ],
+     "sharpe_ci": [
+      -0.27971691726660736,
+      -0.09123885477372698
+     ]
+    },
+    "agent_seed4": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -2.579886041666632,
+     "pnl_total": -371.50358999999503,
+     "pnl_std": 16.289225509549365,
+     "sharpe": -0.15837990825003956,
+     "win_rate": 0.19444444444444445,
+     "max_dd_episode_mean": 11.227602743055561,
+     "max_dd_cumulative": 388.5495599999931,
+     "mean_abs_inv_quotes": 0.4927999898229703,
+     "inv_std_quotes": 0.5348558368817058,
+     "fills_per_hour": 27.006944444444443,
+     "filled_notional_per_hour": 23963.008991944444,
+     "markout_5s_bps": -1.3270851238832664,
+     "edge_at_fill_bps": 1.0058584337557794,
+     "liquidation_cost_mean": -0.03357027777777725,
+     "pnl_mean_vip0_fees": -7.645103745715243,
+     "pnl_mean_ci": [
+      -6.660230624999953,
+      0.02367458333331898
+     ],
+     "sharpe_ci": [
+      -0.2610857872281621,
+      0.012236352233704697
+     ]
+    },
+    "avellaneda_stoikov": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -0.09624680555555581,
+     "pnl_total": -13.859540000000038,
+     "pnl_std": 0.3140853786473935,
+     "sharpe": -0.3064351673103728,
+     "win_rate": 0.006944444444444444,
+     "max_dd_episode_mean": 0.10676364583333411,
+     "max_dd_cumulative": 13.859540000000038,
+     "mean_abs_inv_quotes": 0.00021604991870169697,
+     "inv_std_quotes": 0.005757269366612788,
+     "fills_per_hour": 0.4583333333333333,
+     "filled_notional_per_hour": 435.6078901388889,
+     "markout_5s_bps": -1.64543539835294,
+     "edge_at_fill_bps": 1.9792563411436033,
+     "liquidation_cost_mean": -0.009982430555553713,
+     "pnl_mean_vip0_fees": -0.2626736549375003,
+     "pnl_mean_ci": [
+      -0.19635472222222383,
+      -0.015765555555556747
+     ],
+     "sharpe_ci": [
+      -0.4448860810464605,
+      -0.15704995139787864
+     ]
+    },
+    "fixed_micro": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": 3.158522291666683,
+     "pnl_total": 454.8272100000023,
+     "pnl_std": 19.281833609222897,
+     "sharpe": 0.1638081914655615,
+     "win_rate": 0.3958333333333333,
+     "max_dd_episode_mean": 13.45771996527774,
+     "max_dd_cumulative": 70.96190999999897,
+     "mean_abs_inv_quotes": 0.8401416892761061,
+     "inv_std_quotes": 0.7143406326413709,
+     "fills_per_hour": 12.180555555555555,
+     "filled_notional_per_hour": 11303.136907013886,
+     "markout_5s_bps": -1.2063257758972858,
+     "edge_at_fill_bps": 2.726577375040478,
+     "liquidation_cost_mean": -0.0824047916666599,
+     "pnl_mean_vip0_fees": 0.262169852937516,
+     "pnl_mean_ci": [
+      -0.40404305555555453,
+      7.822280347222259
+     ],
+     "sharpe_ci": [
+      -0.08248511285282929,
+      0.28318819084512004
+     ]
+    },
+    "fixed_mid": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": 2.546991944444489,
+     "pnl_total": 366.7668400000064,
+     "pnl_std": 16.188353633203352,
+     "sharpe": 0.15733483479261567,
+     "win_rate": 0.4375,
+     "max_dd_episode_mean": 13.235997743055561,
+     "max_dd_cumulative": 83.00498999999888,
+     "mean_abs_inv_quotes": 0.8178755433569642,
+     "inv_std_quotes": 0.7066117588487297,
+     "fills_per_hour": 12.70138888888889,
+     "filled_notional_per_hour": 11806.614139236111,
+     "markout_5s_bps": -1.2270695992417937,
+     "edge_at_fill_bps": 2.6757170879463983,
+     "liquidation_cost_mean": -0.07762225694443793,
+     "pnl_mean_vip0_fees": -0.41241670178814993,
+     "pnl_mean_ci": [
+      -0.45393902777779654,
+      6.139277916666815
+     ],
+     "sharpe_ci": [
+      -0.08313765065446356,
+      0.27700315886118543
+     ]
+    },
+    "repo_fixed_midpoint": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": 2.60079451388885,
+     "pnl_total": 374.5144099999944,
+     "pnl_std": 21.10669775792326,
+     "sharpe": 0.12322128945597545,
+     "win_rate": 0.3194444444444444,
+     "max_dd_episode_mean": 10.699881840277799,
+     "max_dd_cumulative": 144.17414000000213,
+     "mean_abs_inv_quotes": 0.6388375250628529,
+     "inv_std_quotes": 0.5344627761406764,
+     "fills_per_hour": 4.923611111111111,
+     "filled_notional_per_hour": 4673.5548288888895,
+     "markout_5s_bps": -1.2453852725329635,
+     "edge_at_fill_bps": 4.257932154555304,
+     "liquidation_cost_mean": -0.06543357638889935,
+     "pnl_mean_vip0_fees": 1.1595475973992668,
+     "pnl_mean_ci": [
+      -0.25755006944445924,
+      7.003826319444392
+     ],
+     "sharpe_ci": [
+      -0.046833431407042964,
+      0.23357481012425665
+     ]
+    },
+    "td3_v1_previous": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -23.603635555555282,
+     "pnl_total": -3398.9235199999607,
+     "pnl_std": 66.617988004865,
+     "sharpe": -0.35431324575325734,
+     "win_rate": 0.3194444444444444,
+     "max_dd_episode_mean": 45.75666451388872,
+     "max_dd_cumulative": 3418.557139999959,
+     "mean_abs_inv_quotes": 3.2410241111174445,
+     "inv_std_quotes": 2.190179465195585,
+     "fills_per_hour": 195.375,
+     "filled_notional_per_hour": 160788.81711361112,
+     "markout_5s_bps": -1.550686015878317,
+     "edge_at_fill_bps": 0.8069219157993078,
+     "liquidation_cost_mean": -0.22051447916666175,
+     "pnl_mean_vip0_fees": -57.47223375614208,
+     "pnl_mean_ci": [
+      -57.10557451388846,
+      -1.6263760260416191
+     ],
+     "sharpe_ci": [
+      -0.5806987285858308,
+      -0.12320127860808967
+     ]
+    }
+   },
+   "best_baseline_by_validation": "fixed_mid",
+   "vs_best_baseline": {
+    "n_episodes": 144,
+    "n_clusters": 6,
+    "cluster": "instrument-day",
+    "diff_mean": -3.2934548611111865,
+    "diff_ci95": [
+     -8.253911041666706,
+     1.3591711805556075
+    ],
+    "p_sign_flip": 0.34375,
+    "hac_t": -1.50872445881263,
+    "p_hac": 0.13357546626776876,
+    "episodes_better": 0.2361111111111111
+   },
+   "best_baseline_ex_post": "repo_fixed_midpoint",
+   "vs_best_baseline_ex_post": {
+    "n_episodes": 144,
+    "n_clusters": 6,
+    "cluster": "instrument-day",
+    "diff_mean": -3.347257430555547,
+    "diff_ci95": [
+     -8.319558958333264,
+     1.1011075694444663
+    ],
+    "p_sign_flip": 0.34375,
+    "hac_t": -1.594708978007288,
+    "p_hac": 0.112985127194449,
+    "episodes_better": 0.2013888888888889
+   },
+   "vs_each": {
+    "fixed_mid": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": -3.2934548611111865,
+     "diff_ci95": [
+      -8.253911041666706,
+      1.3591711805556075
+     ],
+     "p_sign_flip": 0.34375,
+     "hac_t": -1.50872445881263,
+     "p_hac": 0.13357546626776876,
+     "episodes_better": 0.2361111111111111
+    },
+    "avellaneda_stoikov": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": -0.6502161111111412,
+     "diff_ci95": [
+      -3.29581631944443,
+      1.2159232638888477
+     ],
+     "p_sign_flip": 0.875,
+     "hac_t": -0.5230212478261447,
+     "p_hac": 0.6017689283111747,
+     "episodes_better": 0.14583333333333334
+    },
+    "repo_fixed_midpoint": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": -3.347257430555547,
+     "diff_ci95": [
+      -8.319558958333264,
+      1.1011075694444663
+     ],
+     "p_sign_flip": 0.34375,
+     "hac_t": -1.594708978007288,
+     "p_hac": 0.112985127194449,
+     "episodes_better": 0.2013888888888889
+    },
+    "td3_v1_previous": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": 22.85717263888858,
+     "diff_ci95": [
+      2.305986920138845,
+      56.1950190972217
+     ],
+     "p_sign_flip": 0.0625,
+     "hac_t": 2.3741754300995077,
+     "p_hac": 0.018916503316876488,
+     "episodes_better": 0.6805555555555556
+    },
+    "fixed_micro": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": -3.90498520833338,
+     "diff_ci95": [
+      -9.443337847222242,
+      1.2777697152777279
+     ],
+     "p_sign_flip": 0.34375,
+     "hac_t": -1.4923098099451417,
+     "p_hac": 0.137820850627321,
+     "episodes_better": 0.2638888888888889
+    }
+   }
+  },
+  "SOLUSDT": {
+   "summary": {
+    "agent": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -1.8607430555556275,
+     "pnl_total": -267.94700000001035,
+     "pnl_std": 32.36362059425231,
+     "sharpe": -0.05749489770888274,
+     "win_rate": 0.3541666666666667,
+     "max_dd_episode_mean": 28.18202083333334,
+     "max_dd_cumulative": 851.7870000000097,
+     "mean_abs_inv_quotes": 1.1181803517738123,
+     "inv_std_quotes": 0.9279998204861469,
+     "fills_per_hour": 9.854166666666666,
+     "filled_notional_per_hour": 9519.992041666666,
+     "markout_5s_bps": -0.20300454731144843,
+     "edge_at_fill_bps": 5.319204908214005,
+     "liquidation_cost_mean": -0.012055555555604435,
+     "pnl_mean_vip0_fees": -4.589915936111182,
+     "pnl_mean_ci": [
+      -8.084694444444658,
+      3.4864305555555735
+     ],
+     "sharpe_ci": [
+      -0.18807747466108307,
+      0.4325994552961013
+     ]
+    },
+    "agent_seed0": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -3.5344652777778425,
+     "pnl_total": -508.9630000000093,
+     "pnl_std": 47.25847673359082,
+     "sharpe": -0.07479008046963947,
+     "win_rate": 0.3819444444444444,
+     "max_dd_episode_mean": 32.59684374999998,
+     "max_dd_cumulative": 896.4230000000044,
+     "mean_abs_inv_quotes": 1.3949255130260756,
+     "inv_std_quotes": 0.9254161053341896,
+     "fills_per_hour": 12.916666666666666,
+     "filled_notional_per_hour": 12222.46875,
+     "markout_5s_bps": -0.8992671826081678,
+     "edge_at_fill_bps": 2.5026041308957945,
+     "liquidation_cost_mean": -0.015468750000040011,
+     "pnl_mean_vip0_fees": -6.834412817708399,
+     "pnl_mean_ci": [
+      -8.200069444444551,
+      0.41980555555551763
+     ],
+     "sharpe_ci": [
+      -0.15107694356514342,
+      0.05212914241985021
+     ]
+    },
+    "agent_seed1": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -22.71442361111088,
+     "pnl_total": -3270.8769999999668,
+     "pnl_std": 42.198945899087796,
+     "sharpe": -0.5382699289557821,
+     "win_rate": 0.2708333333333333,
+     "max_dd_episode_mean": 43.80396874999988,
+     "max_dd_cumulative": 3279.7969999999664,
+     "mean_abs_inv_quotes": 2.032662609051295,
+     "inv_std_quotes": 1.6382565090506864,
+     "fills_per_hour": 210.32638888888889,
+     "filled_notional_per_hour": 197905.4247013889,
+     "markout_5s_bps": -0.8582627862073914,
+     "edge_at_fill_bps": 0.6368464632444616,
+     "liquidation_cost_mean": -0.027760416666673098,
+     "pnl_mean_vip0_fees": -63.61049264340256,
+     "pnl_mean_ci": [
+      -46.1754166666663,
+      -2.874451041666567
+     ],
+     "sharpe_ci": [
+      -0.90223532574112,
+      -0.2048660968948312
+     ]
+    },
+    "agent_seed2": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -1.5951319444443604,
+     "pnl_total": -229.6989999999879,
+     "pnl_std": 31.264102342482378,
+     "sharpe": -0.05102119763332717,
+     "win_rate": 0.5277777777777778,
+     "max_dd_episode_mean": 34.625809027777855,
+     "max_dd_cumulative": 556.8039999999905,
+     "mean_abs_inv_quotes": 2.2519037936266333,
+     "inv_std_quotes": 1.8409231338604373,
+     "fills_per_hour": 42.27777777777778,
+     "filled_notional_per_hour": 39809.455527777776,
+     "markout_5s_bps": -0.852443737544893,
+     "edge_at_fill_bps": 0.957853406289505,
+     "liquidation_cost_mean": -0.04216666666666175,
+     "pnl_mean_vip0_fees": -11.239084942361027,
+     "pnl_mean_ci": [
+      -10.753541666666486,
+      4.282034722222299
+     ],
+     "sharpe_ci": [
+      -0.28825141042982383,
+      0.15811989185954983
+     ]
+    },
+    "agent_seed3": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -1.6367986111110353,
+     "pnl_total": -235.69899999998907,
+     "pnl_std": 54.90394822305837,
+     "sharpe": -0.02981203837037749,
+     "win_rate": 0.5555555555555556,
+     "max_dd_episode_mean": 47.25199652777775,
+     "max_dd_cumulative": 1086.379999999987,
+     "mean_abs_inv_quotes": 2.9332414359326964,
+     "inv_std_quotes": 1.9380973749619121,
+     "fills_per_hour": 40.72222222222222,
+     "filled_notional_per_hour": 37954.12494444445,
+     "markout_5s_bps": -0.8734978575825888,
+     "edge_at_fill_bps": 1.0183531645319688,
+     "liquidation_cost_mean": -0.030100694444435305,
+     "pnl_mean_vip0_fees": -10.835164827430482,
+     "pnl_mean_ci": [
+      -9.16256944444438,
+      6.570347222222199
+     ],
+     "sharpe_ci": [
+      -0.12676250621497692,
+      0.20321861356242285
+     ]
+    },
+    "agent_seed4": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -5.101152777777732,
+     "pnl_total": -734.5659999999934,
+     "pnl_std": 30.702649778045814,
+     "sharpe": -0.1661469877894824,
+     "win_rate": 0.4236111111111111,
+     "max_dd_episode_mean": 31.849177083333284,
+     "max_dd_cumulative": 786.6369999999932,
+     "mean_abs_inv_quotes": 1.4599162491018187,
+     "inv_std_quotes": 1.2202212298912432,
+     "fills_per_hour": 60.88194444444444,
+     "filled_notional_per_hour": 56065.76253472222,
+     "markout_5s_bps": -0.9588566159840184,
+     "edge_at_fill_bps": 0.5831551501189496,
+     "liquidation_cost_mean": -0.01215972222220992,
+     "pnl_mean_vip0_fees": -16.83855046527773,
+     "pnl_mean_ci": [
+      -11.665749999999955,
+      -0.6441944444444224
+     ],
+     "sharpe_ci": [
+      -0.3224735743120063,
+      -0.03742075889269968
+     ]
+    },
+    "avellaneda_stoikov": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": 0.13742361111110946,
+     "pnl_total": 19.78899999999976,
+     "pnl_std": 0.7640392167423694,
+     "sharpe": 0.1798646039362245,
+     "win_rate": 0.09722222222222222,
+     "max_dd_episode_mean": 0.16585069444444242,
+     "max_dd_cumulative": 3.3050000000001774,
+     "mean_abs_inv_quotes": 0.00016975523036234343,
+     "inv_std_quotes": 0.004346944382666251,
+     "fills_per_hour": 0.4861111111111111,
+     "filled_notional_per_hour": 454.8346736111111,
+     "markout_5s_bps": 3.2042828294646672,
+     "edge_at_fill_bps": 17.660546780919997,
+     "liquidation_cost_mean": 0.0,
+     "pnl_mean_vip0_fees": 0.04645667638888721,
+     "pnl_mean_ci": [
+      0.014118055555556452,
+      0.33719444444443997
+     ],
+     "sharpe_ci": [
+      0.042724764757301095,
+      0.28136294675005824
+     ]
+    },
+    "fixed_micro": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -3.5996736111111054,
+     "pnl_total": -518.3529999999992,
+     "pnl_std": 32.04366936520423,
+     "sharpe": -0.11233649836057603,
+     "win_rate": 0.3402777777777778,
+     "max_dd_episode_mean": 25.838496527777743,
+     "max_dd_cumulative": 783.8639999999979,
+     "mean_abs_inv_quotes": 1.051382078119265,
+     "inv_std_quotes": 0.7685098448021535,
+     "fills_per_hour": 5.972222222222222,
+     "filled_notional_per_hour": 5756.322611111111,
+     "markout_5s_bps": -0.19549749800568175,
+     "edge_at_fill_bps": 9.785748148416658,
+     "liquidation_cost_mean": -0.012354166666672169,
+     "pnl_mean_vip0_fees": -5.533342470138883,
+     "pnl_mean_ci": [
+      -9.917062499999957,
+      1.4471180555555603
+     ],
+     "sharpe_ci": [
+      -0.22326193047177895,
+      0.20427033598478975
+     ]
+    },
+    "fixed_mid": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -4.380430555555601,
+     "pnl_total": -630.7820000000065,
+     "pnl_std": 32.04951310421741,
+     "sharpe": -0.13667697669264056,
+     "win_rate": 0.3333333333333333,
+     "max_dd_episode_mean": 26.11572916666666,
+     "max_dd_cumulative": 865.4360000000024,
+     "mean_abs_inv_quotes": 1.0648407972550673,
+     "inv_std_quotes": 0.7770856766001492,
+     "fills_per_hour": 5.916666666666667,
+     "filled_notional_per_hour": 5700.213548611111,
+     "markout_5s_bps": -0.08941229408332678,
+     "edge_at_fill_bps": 9.866526429523255,
+     "liquidation_cost_mean": -0.012510416666679526,
+     "pnl_mean_vip0_fees": -6.323624912847269,
+     "pnl_mean_ci": [
+      -11.153534722222233,
+      1.452104166666648
+     ],
+     "sharpe_ci": [
+      -0.24911836246752825,
+      0.20309870457548446
+     ]
+    },
+    "repo_fixed_midpoint": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": 0.9209861111111645,
+     "pnl_total": 132.6220000000077,
+     "pnl_std": 33.52795388179541,
+     "sharpe": 0.027469201203215384,
+     "win_rate": 0.4861111111111111,
+     "max_dd_episode_mean": 32.97179861111106,
+     "max_dd_cumulative": 671.2049999999969,
+     "mean_abs_inv_quotes": 1.4991374293999706,
+     "inv_std_quotes": 1.2387726114773918,
+     "fills_per_hour": 24.22222222222222,
+     "filled_notional_per_hour": 23186.228381944442,
+     "markout_5s_bps": -0.5381044751900336,
+     "edge_at_fill_bps": 5.373074493500237,
+     "liquidation_cost_mean": -0.016041666666655234,
+     "pnl_mean_vip0_fees": -4.719814436805503,
+     "pnl_mean_ci": [
+      -1.9948194444443468,
+      4.196034722222261
+     ],
+     "sharpe_ci": [
+      -0.04372859800693148,
+      0.3147919762684232
+     ]
+    },
+    "td3_v1_previous": {
+     "episodes": 144,
+     "days": 6,
+     "pnl_mean": -14.19557638888907,
+     "pnl_total": -2044.163000000026,
+     "pnl_std": 40.88782767227984,
+     "sharpe": -0.3471834332375904,
+     "win_rate": 0.3611111111111111,
+     "max_dd_episode_mean": 49.6832430555557,
+     "max_dd_cumulative": 2286.3290000000206,
+     "mean_abs_inv_quotes": 3.074138136312127,
+     "inv_std_quotes": 2.27901927352767,
+     "fills_per_hour": 238.9375,
+     "filled_notional_per_hour": 201142.6741527778,
+     "markout_5s_bps": -0.7712261348583962,
+     "edge_at_fill_bps": 0.43288441752494133,
+     "liquidation_cost_mean": -0.0367812500000027,
+     "pnl_mean_vip0_fees": -56.065370776736295,
+     "pnl_mean_ci": [
+      -27.23700000000042,
+      -2.3856805555557097
+     ],
+     "sharpe_ci": [
+      -0.7064250880997058,
+      -0.05885629367429259
+     ]
+    }
+   },
+   "best_baseline_by_validation": "fixed_mid",
+   "vs_best_baseline": {
+    "n_episodes": 144,
+    "n_clusters": 6,
+    "cluster": "instrument-day",
+    "diff_mean": 2.519687499999973,
+    "diff_ci95": [
+     0.6215486111110893,
+     4.390361111111089
+    ],
+    "p_sign_flip": 0.125,
+    "hac_t": 0.9008771062748584,
+    "p_hac": 0.36916837606458286,
+    "episodes_better": 0.375
+   },
+   "best_baseline_ex_post": "repo_fixed_midpoint",
+   "vs_best_baseline_ex_post": {
+    "n_episodes": 144,
+    "n_clusters": 6,
+    "cluster": "instrument-day",
+    "diff_mean": -2.781729166666792,
+    "diff_ci95": [
+     -7.207291666666858,
+     0.048854166666559076
+    ],
+    "p_sign_flip": 0.15625,
+    "hac_t": -0.8536274766475419,
+    "p_hac": 0.39473907604882147,
+    "episodes_better": 0.3680555555555556
+   },
+   "vs_each": {
+    "fixed_mid": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": 2.519687499999973,
+     "diff_ci95": [
+      0.6215486111110893,
+      4.390361111111089
+     ],
+     "p_sign_flip": 0.125,
+     "hac_t": 0.9008771062748584,
+     "p_hac": 0.36916837606458286,
+     "episodes_better": 0.375
+    },
+    "avellaneda_stoikov": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": -1.9981666666667368,
+     "diff_ci95": [
+      -8.2295694444446,
+      3.416694444444465
+     ],
+     "p_sign_flip": 0.625,
+     "hac_t": -0.6293194039810681,
+     "p_hac": 0.5301440719337697,
+     "episodes_better": 0.3541666666666667
+    },
+    "repo_fixed_midpoint": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": -2.781729166666792,
+     "diff_ci95": [
+      -7.207291666666858,
+      0.048854166666559076
+     ],
+     "p_sign_flip": 0.15625,
+     "hac_t": -0.8536274766475419,
+     "p_hac": 0.39473907604882147,
+     "episodes_better": 0.3680555555555556
+    },
+    "td3_v1_previous": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": 12.334833333333442,
+     "diff_ci95": [
+      -3.085874999999905,
+      30.064437500000388
+     ],
+     "p_sign_flip": 0.28125,
+     "hac_t": 2.0903505651725127,
+     "p_hac": 0.038356322696169176,
+     "episodes_better": 0.6319444444444444
+    },
+    "fixed_micro": {
+     "n_episodes": 144,
+     "n_clusters": 6,
+     "cluster": "instrument-day",
+     "diff_mean": 1.738930555555478,
+     "diff_ci95": [
+      0.41908333333330855,
+      3.095111111110951
+     ],
+     "p_sign_flip": 0.125,
+     "hac_t": 0.6361827141178693,
+     "p_hac": 0.5256742708275164,
+     "episodes_better": 0.3611111111111111
+    }
+   }
+  }
+ },
+ "pooled": {
+  "summary": {
+   "agent": {
+    "episodes": 576,
+    "days": 24,
+    "pnl_mean": -1.1682212673611345,
+    "pnl_total": -672.8954500000135,
+    "pnl_std": 22.077818158339365,
+    "sharpe": -0.05291380058404308,
+    "win_rate": 0.19618055555555555,
+    "max_dd_episode_mean": 13.678273506944436,
+    "max_dd_cumulative": 1291.4617900000112,
+    "mean_abs_inv_quotes": 0.5954990056442201,
+    "inv_std_quotes": 0.49029013969133506,
+    "fills_per_hour": 4.409722222222222,
+    "filled_notional_per_hour": 4254.448853003472,
+    "markout_5s_bps": -0.30266358558894435,
+    "edge_at_fill_bps": 4.548943332990531,
+    "liquidation_cost_mean": -0.013434053819459871,
+    "pnl_mean_vip0_fees": -2.483029803973113,
+    "pnl_mean_ci": [
+     -2.9819310915798765,
+     0.3677168233506733
+    ],
+    "sharpe_ci": [
+     -0.11087032701896117,
+     0.024541859783995475
+    ]
+   },
+   "agent_seed0": {
+    "episodes": 576,
+    "days": 24,
+    "pnl_mean": -2.062584635416671,
+    "pnl_total": -1188.0487500000024,
+    "pnl_std": 28.991283222849244,
+    "sharpe": -0.07114499277462344,
+    "win_rate": 0.2222222222222222,
+    "max_dd_episode_mean": 16.520708559027774,
+    "max_dd_cumulative": 1425.053099999996,
+    "mean_abs_inv_quotes": 0.7687769928469079,
+    "inv_std_quotes": 0.5493435573547278,
+    "fills_per_hour": 9.973958333333334,
+    "filled_notional_per_hour": 9011.724425850694,
+    "markout_5s_bps": -1.1025438272097117,
+    "edge_at_fill_bps": 1.4934677146291615,
+    "liquidation_cost_mean": -0.02408560763890715,
+    "pnl_mean_vip0_fees": -4.4007229415503515,
+    "pnl_mean_ci": [
+     -4.090039815538209,
+     -0.3904464197049344
+    ],
+    "sharpe_ci": [
+     -0.12779964028793836,
+     -0.02020665693810992
+    ]
+   },
+   "agent_seed1": {
+    "episodes": 576,
+    "days": 24,
+    "pnl_mean": -10.855574704860917,
+    "pnl_total": -6252.811029999888,
+    "pnl_std": 32.33056152254814,
+    "sharpe": -0.33576820796291984,
+    "win_rate": 0.3298611111111111,
+    "max_dd_episode_mean": 28.3646730295138,
+    "max_dd_cumulative": 6265.441289999888,
+    "mean_abs_inv_quotes": 1.8344943978434272,
+    "inv_std_quotes": 1.1673137260855224,
+    "fills_per_hour": 111.36111111111111,
+    "filled_notional_per_hour": 105467.6399108507,
+    "markout_5s_bps": -0.9448415666996989,
+    "edge_at_fill_bps": 0.698820811173729,
+    "liquidation_cost_mean": -0.04359739583334141,
+    "pnl_mean_vip0_fees": -33.073152786336614,
+    "pnl_mean_ci": [
+     -19.197903313801863,
+     -3.8707808090276927
+    ],
+    "sharpe_ci": [
+     -0.4878132677411511,
+     -0.1704333182231507
+    ]
+   },
+   "agent_seed2": {
+    "episodes": 576,
+    "days": 24,
+    "pnl_mean": -2.9051928645832987,
+    "pnl_total": -1673.39108999998,
+    "pnl_std": 21.728093185575208,
+    "sharpe": -0.13370675649126867,
+    "win_rate": 0.4201388888888889,
+    "max_dd_episode_mean": 21.370410234375015,
+    "max_dd_cumulative": 1821.713149999959,
+    "mean_abs_inv_quotes": 1.6655055544686872,
+    "inv_std_quotes": 1.4802830522654367,
+    "fills_per_hour": 36.236111111111114,
+    "filled_notional_per_hour": 33821.72618413195,
+    "markout_5s_bps": -1.0792550356619743,
+    "edge_at_fill_bps": 0.9399171309774496,
+    "liquidation_cost_mean": -0.02927092881945777,
+    "pnl_mean_vip0_fees": -11.042904631370625,
+    "pnl_mean_ci": [
+     -5.884291423611054,
+     -0.38768585199651345
+    ],
+    "sharpe_ci": [
+     -0.24057480736079104,
+     -0.020649031187075336
+    ]
+   },
+   "agent_seed3": {
+    "episodes": 576,
+    "days": 24,
+    "pnl_mean": -2.482457031249961,
+    "pnl_total": -1429.8952499999775,
+    "pnl_std": 36.27001177691303,
+    "sharpe": -0.06844378894936341,
+    "win_rate": 0.3420138888888889,
+    "max_dd_episode_mean": 27.17875488715276,
+    "max_dd_cumulative": 2017.7753899999998,
+    "mean_abs_inv_quotes": 1.784712312212802,
+    "inv_std_quotes": 1.1829982881461987,
+    "fills_per_hour": 22.35590277777778,
+    "filled_notional_per_hour": 20854.54731199653,
+    "markout_5s_bps": -1.0658424106187556,
+    "edge_at_fill_bps": 1.014138506744604,
+    "liquidation_cost_mean": -0.030191623263897065,
+    "pnl_mean_vip0_fees": -7.69945450573694,
+    "pnl_mean_ci": [
+     -5.193447144531213,
+     0.23825971744791416
+    ],
+    "sharpe_ci": [
+     -0.13415244450784708,
+     0.008113992228112427
+    ]
+   },
+   "agent_seed4": {
+    "episodes": 576,
+    "days": 24,
+    "pnl_mean": -2.1505653993055383,
+    "pnl_total": -1238.72566999999,
+    "pnl_std": 19.64795450135296,
+    "sharpe": -0.10945492565943443,
+    "win_rate": 0.3177083333333333,
+    "max_dd_episode_mean": 15.323160060763875,
+    "max_dd_cumulative": 1293.62517999999,
+    "mean_abs_inv_quotes": 0.7161061574595109,
+    "inv_std_quotes": 0.6626474569742477,
+    "fills_per_hour": 26.76909722222222,
+    "filled_notional_per_hour": 24701.506784791665,
+    "markout_5s_bps": -1.0450029174645041,
+    "edge_at_fill_bps": 0.6828247138408771,
+    "liquidation_cost_mean": -0.011792951388885618,
+    "pnl_mean_vip0_fees": -7.39920171356422,
+    "pnl_mean_ci": [
+     -4.448205622395801,
+     -0.3108493654513915
+    ],
+    "sharpe_ci": [
+     -0.17819152532867713,
+     -0.023564165343823815
+    ]
+   },
+   "avellaneda_stoikov": {
+    "episodes": 576,
+    "days": 24,
+    "pnl_mean": 0.005435798611108606,
+    "pnl_total": 3.131019999998557,
+    "pnl_std": 0.8927637804035431,
+    "sharpe": 0.006088731118383343,
+    "win_rate": 0.08159722222222222,
+    "max_dd_episode_mean": 0.20773283854166655,
+    "max_dd_cumulative": 23.278760000001057,
+    "mean_abs_inv_quotes": 0.00026765126694143433,
+    "inv_std_quotes": 0.006612667495064438,
+    "fills_per_hour": 0.7673611111111112,
+    "filled_notional_per_hour": 753.9250886458334,
+    "markout_5s_bps": 0.313100936888542,
+    "edge_at_fill_bps": 8.420769291416411,
+    "liquidation_cost_mean": -0.0024956076388884282,
+    "pnl_mean_vip0_fees": -0.16517553695659976,
+    "pnl_mean_ci": [
+     -0.07262939670139415,
+     0.08918096788194495
+    ],
+    "sharpe_ci": [
+     -0.07862231231176622,
+     0.1116914972832914
+    ]
+   },
+   "fixed_micro": {
+    "episodes": 576,
+    "days": 24,
+    "pnl_mean": -1.3025749305555991,
+    "pnl_total": -750.2831600000251,
+    "pnl_std": 24.9078010897938,
+    "sharpe": -0.052295862081913815,
+    "win_rate": 0.328125,
+    "max_dd_episode_mean": 18.30666449652778,
+    "max_dd_cumulative": 1340.7358200000217,
+    "mean_abs_inv_quotes": 0.9922530408403752,
+    "inv_std_quotes": 0.7851142286202886,
+    "fills_per_hour": 17.194444444444443,
+    "filled_notional_per_hour": 16835.924876267363,
+    "markout_5s_bps": -0.9545787288746665,
+    "edge_at_fill_bps": 4.324895137989876,
+    "liquidation_cost_mean": -0.024750833333338877,
+    "pnl_mean_vip0_fees": -5.367829815479211,
+    "pnl_mean_ci": [
+     -4.37155236458339,
+     1.3581937803818995
+    ],
+    "sharpe_ci": [
+     -0.14228861157053505,
+     0.07631158876033527
+    ]
+   },
+   "fixed_mid": {
+    "episodes": 576,
+    "days": 24,
+    "pnl_mean": -1.6727354687500373,
+    "pnl_total": -963.4956300000215,
+    "pnl_std": 24.38587063548839,
+    "sharpe": -0.06859445347486304,
+    "win_rate": 0.3402777777777778,
+    "max_dd_episode_mean": 18.332336423611114,
+    "max_dd_cumulative": 1448.807090000023,
+    "mean_abs_inv_quotes": 0.9883826013140854,
+    "inv_std_quotes": 0.7831946892466181,
+    "fills_per_hour": 17.322916666666668,
+    "filled_notional_per_hour": 16959.66918902778,
+    "markout_5s_bps": -0.954863729764192,
+    "edge_at_fill_bps": 4.253884462806653,
+    "liquidation_cost_mean": -0.023584869791673943,
+    "pnl_mean_vip0_fees": -5.7572923221154895,
+    "pnl_mean_ci": [
+     -4.795774285156358,
+     0.9848507743055764
+    ],
+    "sharpe_ci": [
+     -0.15439581170892358,
+     0.06191371138351845
+    ]
+   },
+   "repo_fixed_midpoint": {
+    "episodes": 576,
+    "days": 24,
+    "pnl_mean": 0.3168906597222081,
+    "pnl_total": 182.52901999999187,
+    "pnl_std": 24.515730856435532,
+    "sharpe": 0.012926013161831654,
+    "win_rate": 0.3350694444444444,
+    "max_dd_episode_mean": 17.16155434895833,
+    "max_dd_cumulative": 1140.9656500000028,
+    "mean_abs_inv_quotes": 0.8966594051063548,
+    "inv_std_quotes": 0.7183044849849247,
+    "fills_per_hour": 9.440972222222221,
+    "filled_notional_per_hour": 9114.188708194444,
+    "markout_5s_bps": -0.7172788245781163,
+    "edge_at_fill_bps": 5.096712145210723,
+    "liquidation_cost_mean": -0.021170303819445672,
+    "pnl_mean_vip0_fees": -2.165264008665813,
+    "pnl_mean_ci": [
+     -1.7387509887153196,
+     2.245746534288171
+    ],
+    "sharpe_ci": [
+     -0.06400796172873524,
+     0.10945641021131769
+    ]
+   },
+   "td3_v1_previous": {
+    "episodes": 576,
+    "days": 24,
+    "pnl_mean": -10.355211180555573,
+    "pnl_total": -5964.60164000001,
+    "pnl_std": 45.296091827484744,
+    "sharpe": -0.22861158132570372,
+    "win_rate": 0.3975694444444444,
+    "max_dd_episode_mean": 36.26486039062503,
+    "max_dd_cumulative": 6211.361040000003,
+    "mean_abs_inv_quotes": 3.245667274797059,
+    "inv_std_quotes": 1.5674376235405074,
+    "fills_per_hour": 115.45659722222223,
+    "filled_notional_per_hour": 96873.76421342015,
+    "markout_5s_bps": -1.041780415654272,
+    "edge_at_fill_bps": 0.5640068411789421,
+    "liquidation_cost_mean": -0.06743163194444363,
+    "pnl_mean_vip0_fees": -31.427524784628492,
+    "pnl_mean_ci": [
+     -20.79198799045134,
+     -3.0788769561632368
+    ],
+    "sharpe_ci": [
+     -0.3451341416624395,
+     -0.09956092776186037
+    ]
+   },
+   "best_baseline": {
+    "episodes": 576,
+    "days": 24,
+    "pnl_mean": -1.6727354687500373,
+    "pnl_total": -963.4956300000215,
+    "pnl_std": 24.38587063548839,
+    "sharpe": -0.06859445347486304,
+    "win_rate": 0.3402777777777778,
+    "max_dd_episode_mean": 18.332336423611114,
+    "max_dd_cumulative": 1448.807090000023,
+    "mean_abs_inv_quotes": 0.9883826013140854,
+    "inv_std_quotes": 0.7831946892466181,
+    "fills_per_hour": 17.322916666666668,
+    "filled_notional_per_hour": 16959.66918902778,
+    "markout_5s_bps": -0.954863729764192,
+    "edge_at_fill_bps": 4.253884462806653,
+    "liquidation_cost_mean": -0.023584869791673943,
+    "pnl_mean_vip0_fees": -5.7572923221154895,
+    "pnl_mean_ci": [
+     -4.795774285156358,
+     0.9848507743055764
+    ],
+    "sharpe_ci": [
+     -0.15439581170892358,
+     0.06191371138351845
+    ]
+   }
+  },
+  "vs_best_baseline_calendar_day_clusters": {
+   "n_episodes": 576,
+   "n_clusters": 6,
+   "cluster": "calendar-day",
+   "diff_mean": 0.5045142013889027,
+   "diff_ci95": [
+    -0.16991642361111067,
+    1.3571725694445052
+   ],
+   "p_sign_flip": 0.34375,
+   "hac_t": 0.4361918848758325,
+   "p_hac": 0.6628612372247981,
+   "episodes_better": 0.2760416666666667
+  },
+  "vs_best_baseline_instrument_day_clusters": {
+   "n_episodes": 576,
+   "n_clusters": 24,
+   "cluster": "instrument-day",
+   "diff_mean": 0.5045142013889026,
+   "diff_ci95": [
+    -1.7268135030382306,
+    2.8481265881077538
+   ],
+   "p_sign_flip": 0.6823,
+   "hac_t": 0.4361918848758325,
+   "p_hac": 0.6628612372247981,
+   "episodes_better": 0.2760416666666667
+  }
+ },
+ "frozen_inputs_sha256": {
+  "agent": "2c97a3b47ef9ada3b7693e4efb8ec1eb103440a193c2881a03ed36d3ab8f617f",
+  "baselines": "1db6079bb0463ca8475fded1097afed248a4a9875313f328ca329b31a06b717a",
+  "v1_actor": "96b427b70cc52be371ac4dbb6358385eac73f9b5c37252ee0f83806801f8dcf3"
+ }
+}

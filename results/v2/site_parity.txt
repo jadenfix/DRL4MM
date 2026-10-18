@@ -1,0 +1,18 @@
+actor: 80 observations, max |ts - python| = 8.465e-16 (tolerance 1e-5) OK
+v2-btc-0.json agent    steps 300/300 mismatched 0 fills 0 final pnl ts 0.000000 py 0.000000 OK
+v2-btc-0.json baseline steps 300/300 mismatched 0 fills 0 final pnl ts 0.000000 py 0.000000 OK
+v2-btc-1.json agent    steps 300/300 mismatched 0 fills 0 final pnl ts 0.000000 py 0.000000 OK
+v2-btc-1.json baseline steps 300/300 mismatched 0 fills 1 final pnl ts -5.076000 py -5.076000 OK
+v2-eth-0.json agent    steps 300/300 mismatched 0 fills 0 final pnl ts 0.000000 py 0.000000 OK
+v2-eth-0.json baseline steps 300/300 mismatched 0 fills 0 final pnl ts 0.000000 py 0.000000 OK
+v2-eth-1.json agent    steps 300/300 mismatched 0 fills 0 final pnl ts 0.000000 py 0.000000 OK
+v2-eth-1.json baseline steps 300/300 mismatched 0 fills 9 final pnl ts -32.447000 py -32.447000 OK
+v2-ltc-0.json agent    steps 300/300 mismatched 0 fills 0 final pnl ts 0.000000 py 0.000000 OK
+v2-ltc-0.json baseline steps 300/300 mismatched 0 fills 0 final pnl ts 0.000000 py 0.000000 OK
+v2-ltc-1.json agent    steps 300/300 mismatched 0 fills 0 final pnl ts 0.000000 py 0.000000 OK
+v2-ltc-1.json baseline steps 300/300 mismatched 0 fills 0 final pnl ts 0.000000 py 0.000000 OK
+v2-sol-0.json agent    steps 300/300 mismatched 0 fills 0 final pnl ts 0.000000 py 0.000000 OK
+v2-sol-0.json baseline steps 300/300 mismatched 0 fills 0 final pnl ts 0.000000 py 0.000000 OK
+v2-sol-1.json agent    steps 300/300 mismatched 0 fills 2 final pnl ts -1.480000 py -1.480000 OK
+v2-sol-1.json baseline steps 300/300 mismatched 0 fills 2 final pnl ts -2.625000 py -2.625000 OK
+PARITY OK

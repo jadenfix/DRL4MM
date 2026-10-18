@@ -3,6 +3,7 @@
     python -m mmv2 all --data DATA_DIR --out RUNS_DIR          # everything below, in order
     python -m mmv2 fetch     --data DATA_DIR                    # download + verify + convert
     python -m mmv2 baselines --data DATA_DIR --out RUNS_DIR     # fit on train, tune on validation
+    python -m mmv2 ablate    --data DATA_DIR --out RUNS_DIR     # design ablations, validation only
     python -m mmv2 train     --data DATA_DIR --out RUNS_DIR --name td3_s0 --set seed=0 ...
     python -m mmv2 select    --data DATA_DIR --out RUNS_DIR --runs td3_s0,td3_s1,...
     python -m mmv2 test      --data DATA_DIR --out RUNS_DIR     # touches the test days, once
@@ -42,7 +43,7 @@ def v1_actor_path():
 def main(argv=None):
     ap = argparse.ArgumentParser(prog='python -m mmv2', description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('stage', choices=['fetch', 'baselines', 'train', 'select', 'test', 'report', 'all'])
+    ap.add_argument('stage', choices=['fetch', 'baselines', 'ablate', 'train', 'select', 'test', 'report', 'all'])
     ap.add_argument('--data', default='data/v2')
     ap.add_argument('--out', default='runs/v2')
     ap.add_argument('--name')
@@ -59,6 +60,9 @@ def main(argv=None):
     if a.stage in ('baselines', 'all'):
         from .baselines import tune
         tune(a.data, out, v1_actor_path(), log=log)
+    if a.stage == 'ablate':  # design selection on validation days (not part of 'all')
+        from .ablate import ABLATIONS, run
+        run(a.data, out, a.runs.split(',') if a.runs else list(ABLATIONS), int(parse_set(a.set).get('steps', 400000)), log=log)
     if a.stage == 'train':
         from .rl import train
         train(parse_set(a.set), a.data, out / a.name, log=log)
@@ -77,7 +81,7 @@ def main(argv=None):
         evaluate_test(a.data, out / 'agent.json', out / 'baselines.json', v1_actor_path(), out, force=a.force)
     if a.stage in ('report', 'all'):
         from .report import write_report
-        write_report(out, log=log)
+        write_report(out, a.data, log=log)
 
 
 if __name__ == '__main__':
